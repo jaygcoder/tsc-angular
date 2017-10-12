@@ -11,6 +11,7 @@ import { Member } from './member';
 
 export class MembersComponent implements OnInit {
   members: Member[];
+  selectedMember: Member;
 
   constructor(private memberService: MemberService) { }
 
@@ -22,5 +23,4 @@ export class MembersComponent implements OnInit {
     this.memberService.getMembers()
       .then(members => this.members = members);
   }
-
 }

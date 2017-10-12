@@ -2,10 +2,12 @@
 <div class="container">
   <div class="row">
     <div *ngFor="let member of members" 
-      class="col-sm-6 col-md-3 text-center well members">
+      class="col-sm-6 col-md-3 text-center well members bg-primary">
       <img src="http://via.placeholder.com/200x200" class="img-circle">
       <div class="name-plate">
-        <h3>{{member.codeName}}</h3>
+        <h3 [class.selected]="member === selectedMember" (click)="onSelect(member)">
+          {{member.codeName}}
+        </h3>
         <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
       </div>
     </div>
