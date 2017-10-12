@@ -1,3 +1,8 @@
+.container {
+    margin: 0 auto;
+    padding: 2px;
+}
+
 .members {
     background-color: #007777;
     border-width: 2px;

@@ -12,17 +12,15 @@ import { Member } from './member';
 export class MembersComponent implements OnInit {
   members: Member[];
 
-  constructor(
-    private memberService: MemberService
-  ) { }
+  constructor(private memberService: MemberService) { }
 
   ngOnInit() {
     this.getMembers();
   }
 
   getMembers(): void {
-    // Test comment
-    this.members = this.memberService.getMembers();
+    this.memberService.getMembers()
+      .then(members => this.members = members);
   }
 
 }

@@ -28,13 +28,18 @@ const MEMBERS: Member[] = [
     codeName: 'Dalerub',
     firstName: 'Dale',
     lastName: 'Rubio'
+  }, {
+    id: 6,
+    codeName: 'SomeOtherMember',
+    firstName: 'Member',
+    lastName: 'Last Name'
   }
 ];
 
 @Injectable()
 export class MemberService {
 
-  getMembers(): Member[] {
-    return MEMBERS;
+  getMembers(): Promise<Member[]> {
+    return Promise.resolve(MEMBERS);
   }
 }
