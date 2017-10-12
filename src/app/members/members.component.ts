@@ -21,6 +21,7 @@ export class MembersComponent implements OnInit {
   }
 
   getMembers(): void {
+    // Test comment
     this.members = this.memberService.getMembers();
   }
 
