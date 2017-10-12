@@ -23,6 +23,11 @@ const MEMBERS: Member[] = [
     codeName: 'Fonz',
     firstName: 'Alfonso',
     lastName: 'Abueleja'
+  }, {
+    id: 5,
+    codeName: 'Dalerub',
+    firstName: 'Dale',
+    lastName: 'Rubio'
   }
 ];
 
