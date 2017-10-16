@@ -1,5 +1,64 @@
-.members {
-    background-color: #007777;
-    border-width: 2px;
-    border-color: #000000;
+.row {
+    position: relative;
+    width: 100%;
+    margin: 0;
 }
+
+.members-grid {
+    position: absolute;
+    text-align: center;
+    padding: 0.15em;
+    width: 100%;
+}
+
+.members-grid li {
+    list-style: none;
+    padding: 0.30em;
+    background-color: seagreen;
+}
+
+.members-grid li p,
+.members-grid li h3 {
+    display: block;
+    text-align: left;
+}
+
+.members-grid img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+
+/*2 in a row*/
+
+@media screen and (min-width: 600px) {
+    .members-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .members-grid li {
+        width: 50%;
+    }
+}
+
+
+/*4 in a row*/
+
+@media screen and (min-width: 800px) {
+    .members-grid li {
+        width: 25%;
+    }
+}
+
+
+/*6 in a row*/
+
+
+/*
+@media screen and (min-width: 1200px) {
+    .members-grid li {
+        width: 16.66%;
+    }
+}*/
