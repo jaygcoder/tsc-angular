@@ -1,11 +1,13 @@
 <div class="container-fluid">
     <div class="row">
         <ul class="members-grid">
-            <li *ngFor="let member of members">
+            <li *ngFor="let member of members" [class.selected]="member === selectedMember">
                 <img src="http://via.placeholder.com/300x300" class="img-circle">
-                <h3>{{member.codeName}}</h3>
+                <h3 (click)="onSelect(member)">{{member.codeName}}</h3>
                 <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
             </li>
         </ul>
+        <app-member-detail [member]="selectedMember"></app-member-detail>
     </div>
+
 </div>

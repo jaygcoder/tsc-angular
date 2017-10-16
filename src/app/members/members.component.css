@@ -1,11 +1,10 @@
 .row {
-    position: relative;
     width: 100%;
     margin: 0;
+    display: block;
 }
 
 .members-grid {
-    position: absolute;
     text-align: center;
     padding: 0.15em;
     width: 100%;
@@ -20,13 +19,18 @@
 .members-grid li p,
 .members-grid li h3 {
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
 .members-grid img {
     max-width: 100%;
     height: auto;
     vertical-align: bottom;
+}
+
+.selected {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(75, 75, 75);
 }
 
 
@@ -41,6 +45,9 @@
     .members-grid li {
         width: 50%;
     }
+    .members-grid ls p {
+        text-align: center;
+    }
 }
 
 
@@ -49,6 +56,10 @@
 @media screen and (min-width: 800px) {
     .members-grid li {
         width: 25%;
+        max-width: 450px;
+    }
+    .members-grid ls p {
+        text-align: left;
     }
 }
 

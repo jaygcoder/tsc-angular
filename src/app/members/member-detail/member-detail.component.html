@@ -1,3 +1,10 @@
-<p>
-  member-detail works!
-</p>
+<div *ngIf="member">
+    <h2>{{member.codeName}} details!</h2>
+    <div><label>id: </label>{{member.id}}</div>
+    <div>
+        <label>first name: </label>
+        <p>{{member.firstName}}</p>
+        <label>last name: </label>
+        <p>{{member.lastName}}</p>
+    </div>
+</div>
