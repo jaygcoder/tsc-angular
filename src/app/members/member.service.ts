@@ -30,9 +30,14 @@ const MEMBERS: Member[] = [
     lastName: 'Rubio'
   }, {
     id: 6,
-    codeName: 'SomeOtherMember',
-    firstName: 'Member',
-    lastName: 'Last Name'
+    codeName: 'Big Boss Mike',
+    firstName: 'Mike',
+    lastName: 'BBM'
+  }, {
+    id: 7,
+    codeName: 'Ayumi',
+    firstName: 'Ayumi',
+    lastName: 'Test'
   }
 ];
 

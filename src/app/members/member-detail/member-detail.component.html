@@ -1,7 +1,10 @@
-<div class="container">
-  <div *ngIf="member">
-    <img src="http://via.placeholder.com/200x200" class="img-circle">
-    <h2>{{member.codeName}}</h2>
-    <h3>{{member.firstName}} {{member.lastName}}</h3>
-  </div>
+<div *ngIf="member">
+    <h2>{{member.codeName}} details!</h2>
+    <div><label>ID: </label> {{member.id}}</div>
+    <div>
+        <label>First Name: </label>
+        <p>{{member.firstName}}</p>
+        <label>Last Name: </label>
+        <p>{{member.lastName}}</p>
+    </div>
 </div>

@@ -20,7 +20,12 @@ export class MembersComponent implements OnInit {
   }
 
   getMembers(): void {
+    // get Members list from Service, convert to actual DB later
     this.memberService.getMembers()
       .then(members => this.members = members);
+  }
+
+  onSelect(member: Member): void {
+    this.selectedMember = member;
   }
 }
