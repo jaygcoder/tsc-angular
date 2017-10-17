@@ -1,25 +1,88 @@
-<header>
-    <h1>{{title}}</h1>
-</header>
-<aside>
-    <h3>Secondary Nav (h3)</h3>
-    <ul>
-        <li><a routerLink="/members">Members</a></li>
-        <li><a href="#">List Item 2</a></li>
-        <li><a href="#">List Item 3</a></li>
-    </ul>
-</aside>
-
-<section>
-    <div class="container-fluid">
-        <button class="menu-toggle">Menu</button>
-        <h2>Heading 2 (h2)</h2>
-        <p>Paragraph (p) - Pumpkin spice sweet redeye cup as foam crema. Latte crema acerbic single shot cappuccino latte aroma beans. Medium frappuccino cream id body filter java. Black barista sugar trifecta brewed lungo aroma. Aroma skinny eu, java dark
-            doppio, percolator espresso cappuccino filter aged.</p>
-        <p>Crema, crema beans trifecta, iced, cortado extra foam and crema. Half and half latte, ristretto robusta dark, caffeine sweet rich doppio organic. Black robusta, beans, galão that aged rich arabica single origin. Strong single shot irish, blue
-            mountain, rich plunger pot decaffeinated, affogato blue mountain brewed cinnamon shop. Eu foam, et, as et sit half and half aftertaste.</p>
-        <p>Half and half, cultivar that at white aged ristretto arabica filter decaffeinated. Flavour, spoon coffee french press sweet con panna mocha ristretto roast variety. Americano black milk cinnamon french press black body cream. Coffee, redeye, id
-            instant ut aromatic mocha. Con panna, est, macchiato, extra sugar crema sit percolator that crema.</p>
+<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <div class="float-left">
+        <a class="navbar-brand" href="#">{{title}}</a>
     </div>
-    <router-outlet></router-outlet>
-</section>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/members">Members</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-12 col-md-12">
+            <div class="jumbotron">
+                <h1>Hello, world!</h1>
+                <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+            </div>
+            <div class="row">
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <!--/span-->
+                <div class="col-6 col-lg-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    </p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <!--/span-->
+            </div>
+            <!--/row-->
+        </div>
+        <!--/span-->
+    </div>
+    <!--/row-->
+
+    <hr>
+
+    <footer>
+        <p>&copy; Company 2017</p>
+    </footer>
+
+</div>
+<!--/.container-->
