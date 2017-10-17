@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { MembersComponent } from './members/members.component';
@@ -14,7 +15,13 @@ import { MemberService } from './members/member.service';
     MemberDetailComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+      {
+        path: 'members',
+        component: MembersComponent
+      }
+    ])
   ],
   providers: [MemberService],
   bootstrap: [AppComponent]

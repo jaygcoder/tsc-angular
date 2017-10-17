@@ -1,6 +1,25 @@
-<div style="text-align:center">
-    <h1>
-        The Story Circle!
-    </h1>
-</div>
-<app-members></app-members>
+<header>
+    <h1>{{title}}</h1>
+</header>
+<aside>
+    <h3>Secondary Nav (h3)</h3>
+    <ul>
+        <li><a routerLink="/members">Members</a></li>
+        <li><a href="#">List Item 2</a></li>
+        <li><a href="#">List Item 3</a></li>
+    </ul>
+</aside>
+
+<section>
+    <div class="container-fluid">
+        <button class="menu-toggle">Menu</button>
+        <h2>Heading 2 (h2)</h2>
+        <p>Paragraph (p) - Pumpkin spice sweet redeye cup as foam crema. Latte crema acerbic single shot cappuccino latte aroma beans. Medium frappuccino cream id body filter java. Black barista sugar trifecta brewed lungo aroma. Aroma skinny eu, java dark
+            doppio, percolator espresso cappuccino filter aged.</p>
+        <p>Crema, crema beans trifecta, iced, cortado extra foam and crema. Half and half latte, ristretto robusta dark, caffeine sweet rich doppio organic. Black robusta, beans, galão that aged rich arabica single origin. Strong single shot irish, blue
+            mountain, rich plunger pot decaffeinated, affogato blue mountain brewed cinnamon shop. Eu foam, et, as et sit half and half aftertaste.</p>
+        <p>Half and half, cultivar that at white aged ristretto arabica filter decaffeinated. Flavour, spoon coffee french press sweet con panna mocha ristretto roast variety. Americano black milk cinnamon french press black body cream. Coffee, redeye, id
+            instant ut aromatic mocha. Con panna, est, macchiato, extra sugar crema sit percolator that crema.</p>
+    </div>
+    <router-outlet></router-outlet>
+</section>
