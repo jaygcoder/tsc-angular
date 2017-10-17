@@ -1,5 +1,6 @@
 <div class="container-fluid">
     <div class="row">
+        <h2>Certified Members</h2>
         <ul class="members-grid">
             <li *ngFor="let member of members" [class.selected]="member === selectedMember">
                 <img src="http://via.placeholder.com/300x300" class="img-circle">
@@ -9,5 +10,4 @@
         </ul>
         <app-member-detail [member]="selectedMember"></app-member-detail>
     </div>
-
 </div>
