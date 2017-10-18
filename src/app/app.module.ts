@@ -9,13 +9,15 @@ import { MemberDetailComponent } from './members/member-detail/member-detail.com
 
 import { MemberService } from './members/member.service';
 import { HomepageComponent } from './homepage/homepage.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MembersComponent,
     MemberDetailComponent,
-    HomepageComponent
+    HomepageComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
