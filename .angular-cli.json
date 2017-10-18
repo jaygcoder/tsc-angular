@@ -21,14 +21,15 @@
             "styles.css",
             "../node_modules/bootstrap/dist/css/bootstrap.min.css",
             "../node_modules/font-awesome/css/font-awesome.css",
-            "assets/scss/creative.scss",
-            "assets/css/icomoon.css"
+            "assets/css/icomoon.css",
+            "assets/scss/creative.scss"
         ],
         "scripts": [
             "../node_modules/jquery/dist/jquery.min.js",
             "../node_modules/popper.js/dist/umd/popper.min.js",
             "../node_modules/bootstrap/dist/js/bootstrap.min.js",
-            "assets/main.js"
+            "../node_modules/scrollreveal/dist/scrollreveal.min.js",
+            "assets/js/creative.js"
         ],
         "environmentSource": "environments/environment.ts",
         "environments": {
