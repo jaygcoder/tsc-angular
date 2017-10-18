@@ -9,12 +9,14 @@ import { MembersComponent } from './members/members.component';
 import { MemberDetailComponent } from './members/member-detail/member-detail.component';
 
 import { MemberService } from './members/member.service';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MembersComponent,
-    MemberDetailComponent
+    MemberDetailComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +24,9 @@ import { MemberService } from './members/member.service';
       {
         path: 'members',
         component: MembersComponent
+      }, {
+        path: '',
+        component: HomepageComponent
       }
     ]),
     AngularFontAwesomeModule,
