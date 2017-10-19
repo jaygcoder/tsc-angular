@@ -10,6 +10,7 @@ import { Member } from './member';
 })
 
 export class MembersComponent implements OnInit {
+  title: 'Members';
   members: Member[];
   selectedMember: Member;
 

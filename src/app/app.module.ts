@@ -22,8 +22,8 @@ import { MemberService } from './members/member.service';
     AppComponent,
     MembersComponent,
     MemberDetailComponent,
+    EventsComponent,
     HomepageComponent,
-    EventsComponent
   ],
   imports: [
     BrowserModule,

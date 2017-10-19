@@ -1,13 +1,22 @@
-<div class="container-fluid">
-    <div class="row">
-        <h2>Certified Members</h2>
-        <ul class="members-grid">
-            <li *ngFor="let member of members" [class.selected]="member === selectedMember">
-                <img src="http://via.placeholder.com/300x300" class="img-circle">
-                <h3 (click)="onSelect(member)">{{member.codeName}}</h3>
-                <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
-            </li>
-        </ul>
-        <app-member-detail [member]="selectedMember"></app-member-detail>
+<header class="masthead">
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1 id="homeHeading">{{title}}</h1>
+        </div>
     </div>
-</div>
+</header>
+<section class="bg-primary">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <h2 class="section-heading">Certified Members</h2>
+            <ul class="members-grid">
+                <li *ngFor="let member of members" [class.selected]="member === selectedMember">
+                    <img src="http://via.placeholder.com/300x300" class="img-circle">
+                    <h3 (click)="onSelect(member)">{{member.codeName}}</h3>
+                    <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
+                </li>
+            </ul>
+            <app-member-detail [member]="selectedMember"></app-member-detail>
+        </div>
+    </div>
+</section>
