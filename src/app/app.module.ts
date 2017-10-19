@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { MembersComponent } from './members/members.component';
 import { MemberDetailComponent } from './members/member-detail/member-detail.component';
 
+import { AppRoutingModule } from './app-routing.module';
+
 import { MemberService } from './members/member.service';
 import { HomepageComponent } from './homepage/homepage.component';
 import { EventsComponent } from './events/events.component';
@@ -21,16 +23,8 @@ import { EventsComponent } from './events/events.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([
-      {
-        path: 'members',
-        component: MembersComponent
-      }, {
-        path: '',
-        component: HomepageComponent
-      }
-    ]),
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    AppRoutingModule
   ],
   providers: [MemberService],
   bootstrap: [AppComponent]
