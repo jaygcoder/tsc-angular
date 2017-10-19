@@ -1,6 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Location } from '@angular/common';
+
+import 'rxjs/add/operator/switchMap';
 
 import { Member } from '../member';
+import { MemberService } from '../member.service';
 
 @Component({
   selector: 'app-member-detail',
@@ -10,9 +15,20 @@ import { Member } from '../member';
 export class MemberDetailComponent implements OnInit {
   @Input() member: Member;
 
-  constructor() { }
+  constructor(
+    private memberService: MemberService,
+    private route: ActivatedRoute,
+    private location: Location
+  ) { }
 
   ngOnInit() {
+    this.route.paramMap.switchMap((params: ParamMap) =>
+        this.memberService.getMember(+params.get('id')))
+        .subscribe(member => this.member = member);
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 
 }

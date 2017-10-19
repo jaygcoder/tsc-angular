@@ -10,4 +10,7 @@ import { Member } from './members/member';
 
 export class AppComponent {
   title = 'The Story Circle';
+  slogan = 'Living the Magic, Sharing the Smiles';
+  year = new Date().getFullYear().toString();
+  isNavbarCollapsed = true;
 }
