@@ -5,6 +5,7 @@ services:
     image: tsc-angular
     build: .
     environment:
-      NODE_ENV: production
+      NODE_ENV: development
+      NPM_CONFIG_PREFIX: /home/node/.npm-global
     ports:
-      - 4200:4200
+      - 8080:8080
