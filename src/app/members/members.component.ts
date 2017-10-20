@@ -14,9 +14,7 @@ export class MembersComponent implements OnInit {
   members: Member[];
   selectedMember: Member;
 
-  constructor(
-    private memberService: MemberService
-  ) { }
+  constructor(private memberService: MemberService) { }
 
   ngOnInit() {
     this.getMembers();
@@ -31,5 +29,4 @@ export class MembersComponent implements OnInit {
   onSelect(member: Member): void {
     this.selectedMember = member;
   }
-
 }

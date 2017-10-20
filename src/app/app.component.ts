@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { Member } from './members/member';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
