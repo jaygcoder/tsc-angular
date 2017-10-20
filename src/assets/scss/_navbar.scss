@@ -5,7 +5,8 @@
     @include sans-serif-font;
     @include transition-all;
     .navbar-brand {
-        font-weight: 700;
+        font-weight: bolder;
+        font-size: 20px;
         text-transform: uppercase;
         color: $theme-primary;
         @include sans-serif-font;
@@ -58,6 +59,10 @@
                 color: white;
             }
         }
+        span.icon-tsclogo {
+            font-size: 60px;
+            color: white !important;
+        }
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .95);
             background-color: white;
@@ -76,10 +81,10 @@
                     color: $theme-primary;
                 }
             }
-        }
-        span.icon-tsclogo {
-            font-size: 70px;
-            color: white !important;
+            span.icon-tsclogo {
+                font-size: 45px;
+                color: $gray-darker !important;
+            }
         }
     }
 }
