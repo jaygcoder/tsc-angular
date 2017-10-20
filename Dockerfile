@@ -18,7 +18,7 @@ WORKDIR /app
 # Install dependencies, then clean the cache
 RUN npm install && npm cache clean && rm -rf ~/.npm
 
-# Expose port 4200 to the outside world
+# Expose port 8080 to the outside world
 EXPOSE 8080
 
 # Switch user to node, best practice
