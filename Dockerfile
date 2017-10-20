@@ -16,13 +16,13 @@ COPY . /app
 WORKDIR /app
 
 # Install dependencies, then clean the cache
-RUN npm install --only=prod && npm cache clean && rm -rf ~/.npm
+RUN npm install && npm cache clean && rm -rf ~/.npm
 
 # Expose port 8080 to the outside world
-EXPOSE 80
+EXPOSE 8080
 
 # Switch user to node, best practice
 USER node
 
-# Run the thing using ng serve, best practice
-CMD ["ng", "serve"]
+# Run the thing using ng serve, host check disabled.
+RUN ng serve --disable-host-check
