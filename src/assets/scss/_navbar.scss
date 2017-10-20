@@ -14,6 +14,9 @@
         &:hover {
             color: darken($theme-primary, .1);
         }
+        span.icon-tsclogo {
+            display: none !important;
+        }
     }
     .navbar-toggle {
         font-size: 12px;
@@ -42,6 +45,13 @@
             }
         }
     }
+    @media (min-width: 400px) {
+        .navbar-brand {
+            span.icon-tsclogo {
+                display: inline-block !important;
+            }
+        }
+    }
     @media (min-width: 992px) {
         border-color: fade-out(white, .7);
         background-color: transparent;
@@ -51,6 +61,11 @@
             &:hover {
                 color: white;
             }
+            span.icon-tsclogo {
+                font-size: 60px;
+                color: white !important;
+                
+            }
         }
         .navbar-nav>li.nav-item>a.nav-link,
         .navbar-nav>li.nav-item>a.nav-link:focus {
@@ -59,10 +74,7 @@
                 color: white;
             }
         }
-        span.icon-tsclogo {
-            font-size: 60px;
-            color: white !important;
-        }
+        
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .95);
             background-color: white;
@@ -87,5 +99,5 @@
                 margin: 0 0.2em 0 0;
             }
         }
-    }
+    } 
 }
