@@ -16,10 +16,10 @@ COPY . /app
 WORKDIR /app
 
 # Install dependencies, then clean the cache
-RUN npm install && npm cache clean && rm -rf ~/.npm
+RUN npm install --only=prod && npm cache clean && rm -rf ~/.npm
 
 # Expose port 8080 to the outside world
-EXPOSE 8080
+EXPOSE 80
 
 # Switch user to node, best practice
 USER node
