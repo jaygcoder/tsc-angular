@@ -1,22 +1,26 @@
 <header class="masthead">
     <div class="header-content">
         <div class="header-content-inner">
-            <h1 id="homeHeading">{{title}}</h1>
+            <h1 id="homeHeading">Our Members</h1>
         </div>
     </div>
 </header>
 <section class="bg-primary">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row text-center">
-            <h2 class="section-heading">Certified Members</h2>
-            <ul class="members-grid">
-                <li *ngFor="let member of members" [class.selected]="member === selectedMember">
-                    <img src="http://via.placeholder.com/300x300" class="img-circle">
-                    <h3 (click)="onSelect(member)">{{member.codeName}}</h3>
-                    <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
-                </li>
-            </ul>
-            <app-member-detail [member]="selectedMember"></app-member-detail>
+            <div class="col-md 8 mr-auto ml-auto">
+                <h2 class="section-heading text-white">Certified Members</h2>
+                <hr class="light">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div *ngFor="let member of members" class="col-md- col-sm-6" [class.selected]="member === selectedMember">
+                <div class="profile">
+                    <img src="http://via.placeholder.com/200x200" class="rounded-circle"/>
+                    <h3 class="text-white" (click)="onSelect(member)">{{member.codeName}}</h3>
+                    <p class="hidden-xs text-faded">{{member.firstName}} {{member.lastName}}</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
