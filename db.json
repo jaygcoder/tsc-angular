@@ -2,46 +2,101 @@
     "members": [
         {
             "id": 1,
-            "codeName": "jaymanx",
-            "firstName": "Jay Mar",
-            "lastName": "Garcia",
-            "batch": 13,
-            "fb_page": "jaymanx",
-            "ig_page": "jaymanx4life",
-            "tw_page": "jaymanx4life"
-        },{
+            "codeName": "memberA",
+            "firstName": "Member",
+            "lastName": "A",
+            "batch": 1,
+            "type": "Certified"
+        },
+        {
             "id": 2,
-            "codeName": "xebec",
-            "firstName": "Franklin Christopher",
-            "lastName": "Lina",
+            "codeName": "memberB",
+            "firstName": "Member",
+            "lastName": "B",
             "batch": 8,
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },{
+            "type": "Certified",
+            "fb_page": "memberb"
+        },
+        {
             "id": 3,
-            "codeName": "xebec",
-            "firstName": "Franklin Christopher",
-            "lastName": "Lina",
-            "batch": 8,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "C",
+            "batch": 7,
+            "type": "Certified",
             "fb_page": "chrislinamagic",
             "ig_page": "chrislinamagic",
             "tw_page": "chrislinamagic"
-        },{
+        },
+        {
             "id": 4,
-            "codeName": "xebec",
-            "firstName": "Franklin Christopher",
-            "lastName": "Lina",
-            "batch": 8,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "D",
+            "batch": 6,
+            "type": "Certified",
             "fb_page": "chrislinamagic",
             "ig_page": "chrislinamagic",
             "tw_page": "chrislinamagic"
-        },{
+        },
+        {
             "id": 5,
-            "codeName": "xebec",
-            "firstName": "Franklin Christopher",
-            "lastName": "Lina",
-            "batch": 8,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "E",
+            "batch": 6,
+            "type": "Honorary",
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },
+        {
+            "id": 6,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "F",
+            "batch": 2,
+            "type": "Certified",
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },
+        {
+            "id": 7,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "E",
+            "batch": 3,
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },
+        {
+            "id": 8,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "E",
+            "batch": 4,
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },
+        {
+            "id": 9,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "E",
+            "batch": 6,
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },
+        {
+            "id": 5,
+            "codeName": "member",
+            "firstName": "Member",
+            "lastName": "E",
+            "batch": 6,
             "fb_page": "chrislinamagic",
             "ig_page": "chrislinamagic",
             "tw_page": "chrislinamagic"
