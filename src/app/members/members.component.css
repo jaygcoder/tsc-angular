@@ -1,6 +1,7 @@
-div.member-card {
-    border: 1px;
-    border-color: #36623A;
+.member-card {
+    box-shadow: 0 4px 8px 0 #36623A;
+    margin: auto;
+    margin-bottom: 1em;
 }
 
 .member-card img {
