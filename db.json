@@ -1,0 +1,50 @@
+{
+    "members": [
+        {
+            "id": 1,
+            "codeName": "jaymanx",
+            "firstName": "Jay Mar",
+            "lastName": "Garcia",
+            "batch": 13,
+            "fb_page": "jaymanx",
+            "ig_page": "jaymanx4life",
+            "tw_page": "jaymanx4life"
+        },{
+            "id": 2,
+            "codeName": "xebec",
+            "firstName": "Franklin Christopher",
+            "lastName": "Lina",
+            "batch": 8,
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },{
+            "id": 3,
+            "codeName": "xebec",
+            "firstName": "Franklin Christopher",
+            "lastName": "Lina",
+            "batch": 8,
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },{
+            "id": 4,
+            "codeName": "xebec",
+            "firstName": "Franklin Christopher",
+            "lastName": "Lina",
+            "batch": 8,
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        },{
+            "id": 5,
+            "codeName": "xebec",
+            "firstName": "Franklin Christopher",
+            "lastName": "Lina",
+            "batch": 8,
+            "fb_page": "chrislinamagic",
+            "ig_page": "chrislinamagic",
+            "tw_page": "chrislinamagic"
+        }
+    ]
+}

@@ -22,9 +22,14 @@
                     <h4>{{member.codeName}}</h4>
                     <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
                     <div class="member-icons">
-                        <ng4-fa name="facebook-square" size="2x"></ng4-fa>
+                        <div *ngIf="member.fb_page">
+                            <a [href]="https://facebook.com/member.fb_page">
+                                <ng4-fa name="facebook-square" size="2x"></ng4-fa>
+                            </a>
+                        </div>
                         <ng4-fa name="instagram" size="2x"></ng4-fa>
                         <ng4-fa name="twitter-square" size="2x"></ng4-fa>
+                        <ng4-fa name="external-link" size="2x"></ng4-fa>
                     </div>
                     <br><br>
                 </div>
