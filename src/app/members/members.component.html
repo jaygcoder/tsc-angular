@@ -1,24 +1,32 @@
 <header class="masthead">
     <div class="header-content">
-        <div class="header-content-inner">
-            <h1 id="homeHeading">Our Members</h1>
-        </div>
+        <h2>Our Members</h2>
+        <hr>
+        <p>What started as a meeting between five enthusiasts, we have now grown our membership base with interests across the magic spectrum.</p>
     </div>
 </header>
-<section class="bg-primary">
+<section>
     <div class="container">
         <div class="row text-center">
-            <div class="col-md 8 mr-auto ml-auto">
-                <h2 class="section-heading text-white">Certified Members</h2>
-                <hr class="light">
+            <div class="col-xs-8 ml-auto mr-auto">
+                <h2>Certified Members</h2>
+                <hr>
             </div>
         </div>
+        <br>
         <div class="row text-center">
-            <div *ngFor="let member of members" class="col-md- col-sm-6" [class.selected]="member === selectedMember">
-                <div class="profile">
-                    <img src="http://via.placeholder.com/200x200" class="rounded-circle"/>
-                    <h3 class="text-white" (click)="onSelect(member)">{{member.codeName}}</h3>
-                    <p class="hidden-xs text-faded">{{member.firstName}} {{member.lastName}}</p>
+            <div *ngFor="let member of members" class="col-sm-6 col-lg-3">
+                <div class="member-card">
+                    <img src="http://placeimg.com/300/300/animals" class="rounded-circle">
+                    <br><br>
+                    <h4>{{member.codeName}}</h4>
+                    <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
+                    <div class="member-icons">
+                        <ng4-fa name="facebook-square" size="2x"></ng4-fa>
+                        <ng4-fa name="instagram" size="2x"></ng4-fa>
+                        <ng4-fa name="twitter-square" size="2x"></ng4-fa>
+                    </div>
+                    <br><br>
                 </div>
             </div>
         </div>
