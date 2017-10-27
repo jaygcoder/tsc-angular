@@ -2,7 +2,8 @@
     <div class="header-content">
         <h2>Our Members</h2>
         <hr>
-        <p>What started as a meeting between five enthusiasts, we have now grown our membership base with interests across the magic spectrum.</p>
+        <p>What started as a meeting between five enthusiasts, we have now grown our membership base with interests across the
+            magic spectrum.</p>
     </div>
 </header>
 <section>
@@ -15,23 +16,51 @@
         </div>
         <br>
         <div class="row text-center">
-            <div *ngFor="let member of members" class="col-sm-6 col-lg-3">
-                <div class="member-card">
-                    <img src="http://placeimg.com/300/300/animals" class="rounded-circle">
-                    <br><br>
+            <div *ngFor="let member of members" class="col-sm-6 col-lg-3 rounded">
+                <div class="member-card rounded">
+                    <img src="http://placeimg.com/240/240/animals" class="rounded-circle">
+                    <br>
+                    <br>
                     <h4>{{member.codeName}}</h4>
                     <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
                     <div class="member-icons">
-                        <div *ngIf="member.fb_page">
-                            <a [href]="https://facebook.com/member.fb_page">
-                                <ng4-fa name="facebook-square" size="2x"></ng4-fa>
-                            </a>
-                        </div>
+                        <ng4-fa name="facebook-square" size="2x"></ng4-fa>
                         <ng4-fa name="instagram" size="2x"></ng4-fa>
                         <ng4-fa name="twitter-square" size="2x"></ng4-fa>
                         <ng4-fa name="external-link" size="2x"></ng4-fa>
                     </div>
-                    <br><br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xs-8 ml-auto mr-auto">
+                <h2 class="text-white">Honorary Members</h2>
+                <hr class="light">
+            </div>
+        </div>
+        <br>
+        <div class="row text-center">
+            <div *ngFor="let member of members" class="col-sm-6 col-lg-3">
+                <div class="honorary-card rounded">
+                    <img src="http://placeimg.com/240/240/animals" class="rounded-circle">
+                    <br>
+                    <br>
+                    <h4>{{member.codeName}}</h4>
+                    <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
+                    <div class="member-icons">
+                        <ng4-fa name="facebook-square" size="2x"></ng4-fa>
+                        <ng4-fa name="instagram" size="2x"></ng4-fa>
+                        <ng4-fa name="twitter-square" size="2x"></ng4-fa>
+                        <ng4-fa name="external-link" size="2x"></ng4-fa>
+                    </div>
+                    <br>
+                    <br>
                 </div>
             </div>
         </div>

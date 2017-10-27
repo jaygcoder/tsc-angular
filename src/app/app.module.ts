@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
+import { NgProgressModule, NgProgressInterceptor } from 'ngx-progressbar';
 
 // Components
 import { AppComponent } from './app.component';
@@ -28,9 +30,13 @@ import { MemberService } from './members/member.service';
   imports: [
     BrowserModule,
     AngularFontAwesomeModule,
+    NgProgressModule,
     AppRoutingModule
   ],
-  providers: [MemberService],
+  providers: [
+    MemberService,
+    { provide: HTTP_INTERCEPTORS, useClass: NgProgressInterceptor }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

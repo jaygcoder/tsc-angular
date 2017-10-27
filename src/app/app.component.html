@@ -5,9 +5,10 @@
             <span class="icon-tsclogo d-inline-block align-middle"></span>
             {{title}}
         </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -26,8 +27,11 @@
         </div>
     </div>
 </nav>
+<ng-progress [positionUsing]="'marginLeft'" [direction]="'leftToRightIncreased'" [color]="'#4286f4'" [trickleSpeed]="500"
+    [thick]="true" [ease]="'easeInSine'"></ng-progress>
 <!-- Dynamic content goes here -->
 <router-outlet></router-outlet>
 <footer class="bg-primary">
-    <p class="text-white">Copyright, {{year}}</p>
+    <p class="text-white d-inline">Copyright, {{year}}</p>
+    <a routerLink="/credits" class="float-right text-white d-inline">Credits</a>
 </footer>
