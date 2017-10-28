@@ -4,6 +4,7 @@ export class Member {
         public codeName: string,
         public firstName: string,
         public lastName: string,
+        public type: string,
         public batch: number,
         public fb_page?: string,
         public ig_page?: string,
