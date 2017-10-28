@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
-import { NgProgressModule, NgProgressInterceptor } from 'ngx-progressbar';
+import { NgProgressModule } from 'ngx-progressbar';
 
 // Components
 import { AppComponent } from './app.component';

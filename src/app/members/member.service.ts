@@ -23,8 +23,7 @@ export class MemberService {
   }
 
   getMember(id: number): Observable<Member> {
-    const memUrl = `${this.url}/${id}`;
-    return this.http.get(memUrl)
+    return this.http.get(`${this.url}/${id}`)
         .map((res: Response) => res.json())
         .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
@@ -35,8 +34,4 @@ export class MemberService {
         .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 
-  private handleError(error: any): Promise<any> {
-    console.error('An error occurred', error); // for demo purposes only
-    return Promise.reject(error.message || error);
-  }
 }

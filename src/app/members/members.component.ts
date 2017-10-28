@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewChecked } from '@angular/core';
+import { NgProgress } from 'ngx-progressbar';
 
 import { Observable } from 'rxjs/Rx';
 
@@ -11,17 +12,28 @@ import { Member } from './member';
   styleUrls: ['./members.component.css']
 })
 
-export class MembersComponent implements OnInit {
+export class MembersComponent implements OnInit, AfterViewChecked {
   title: 'Members';
   certifiedMembers: Member[];
   honoraryMembers: Member[];
   selectedMember: Member;
+  loading: boolean;
 
-  constructor(private memberService: MemberService) { }
+  constructor(
+    private memberService: MemberService,
+    public ngProgress: NgProgress
+  ) {}
 
   ngOnInit() {
+    this.ngProgress.start();
     this.getMembers('Certified');
     this.getMembers('Honorary');
+    this.loading = true;
+  }
+
+  ngAfterViewChecked() {
+    this.ngProgress.done();
+    this.loading = false;
   }
 
   getMembers(type: string): void {
