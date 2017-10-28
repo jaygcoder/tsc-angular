@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 import { MemberService } from './member.service';
 import { Member } from './member';
 
@@ -23,7 +24,11 @@ export class MembersComponent implements OnInit {
   getMembers(): void {
     // get Members list from Service, convert to actual DB later
     this.memberService.getMembers()
-      .then(members => this.members = members);
+      .subscribe(members => this.members = members,
+          err => {
+            console.log('Nope, didn\'t work!');
+            console.log(err);
+          });
   }
 
   onSelect(member: Member): void {

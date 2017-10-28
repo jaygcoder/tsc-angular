@@ -1,10 +1,14 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http } from '@angular/http';
+import { Headers, Response, RequestOptions, Http } from '@angular/http';
 
-import 'rxjs/add/operator/toPromise';
+import { Observable } from 'rxjs/Rx';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
 
 import { Member } from './member';
 
+
+/* Mock data
 const MEMBERS: Member[] = [
   {
     id: 1,
@@ -43,26 +47,28 @@ const MEMBERS: Member[] = [
     lastName: 'Test'
   }
 ];
+*/
 
 @Injectable()
 export class MemberService {
 
-  private url = 'https://my.api.mockaroo.com/members.json?key=9746c0c0';
+  private url = 'http://localhost:3000/members';
 
   constructor(
     private http: Http
   ) {}
 
-  getMembers(): Promise<Member[]> {
+  getMembers(): Observable<Member[]> {
     return this.http.get(this.url)
-        .toPromise()
-        .then(res => res.json().data as Member[])
-        .catch(this.handleError);
+        .map((res: Response) => res.json())
+        .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 
-  getMember(id: number): Promise<Member> {
-    return this.getMembers()
-            .then(members => members.find(member => member.id === id));
+  getMember(id: number): Observable<Member> {
+    const memUrl = `${this.url}/${id}`;
+    return this.http.get(memUrl)
+        .map((res: Response) => res.json())
+        .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 
   private handleError(error: any): Promise<any> {

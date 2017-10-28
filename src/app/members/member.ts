@@ -1,6 +1,13 @@
 export class Member {
-    id: number;
-    codeName: string;
-    firstName: string;
-    lastName: string;
+    constructor(
+        public id: number,
+        public codeName: string,
+        public firstName: string,
+        public lastName: string,
+        public batch: number,
+        public fb_page?: string,
+        public ig_page?: string,
+        public tw_page?: string
+    ) { }
+
 }

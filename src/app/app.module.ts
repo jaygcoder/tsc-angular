@@ -20,19 +20,19 @@ import { MemberService } from './members/member.service';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MembersComponent,
-    MemberDetailComponent,
-    EventsComponent,
-    HomepageComponent,
-  ],
   imports: [
     BrowserModule,
     HttpModule,
     AngularFontAwesomeModule,
     NgProgressModule,
     AppRoutingModule
+  ],
+  declarations: [
+    AppComponent,
+    MembersComponent,
+    MemberDetailComponent,
+    EventsComponent,
+    HomepageComponent,
   ],
   providers: [
     MemberService
