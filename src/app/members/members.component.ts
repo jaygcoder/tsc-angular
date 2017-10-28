@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Observable } from 'rxjs/Rx';
 
 import { MemberService } from './member.service';
 import { Member } from './member';
@@ -12,24 +13,35 @@ import { Member } from './member';
 
 export class MembersComponent implements OnInit {
   title: 'Members';
-  members: Member[];
+  certifiedMembers: Member[];
+  honoraryMembers: Member[];
   selectedMember: Member;
 
   constructor(private memberService: MemberService) { }
 
   ngOnInit() {
-    this.getMembers();
+    this.getMembers('Certified');
+    this.getMembers('Honorary');
   }
 
-  getMembers(): void {
+  getMembers(type: string): void {
     // get Members list from Service, convert to actual DB later
-    this.memberService.getMembers()
-      .subscribe(members => this.members = members,
-          err => {
-            console.log('Nope, didn\'t work!');
-            console.log(err);
-          });
+    const memberHolder: Observable<Member[]> = this.memberService.getMembersByType(type);
+    if (type === 'Certified') {
+      memberHolder.subscribe(members => this.certifiedMembers = members,
+        err => {
+          console.log('Error!');
+          console.log(err);
+        });
+    } else if (type === 'Honorary') {
+      memberHolder.subscribe(members => this.honoraryMembers = members,
+        err => {
+          console.log('Error!');
+          console.log(err);
+        });
+    }
   }
+
 
   onSelect(member: Member): void {
     this.selectedMember = member;

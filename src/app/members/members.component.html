@@ -16,12 +16,12 @@
         </div>
         <br>
         <div class="row text-center">
-            <div *ngFor="let member of members" class="col-sm-6 col-lg-3 rounded">
+            <div *ngFor="let certifiedMember of certifiedMembers" class="col-sm-6 col-lg-3 rounded">
                 <div class="member-card rounded">
                     <img src="http://placeimg.com/260/260/animals" class="rounded-circle hoverable">
                     <br>
-                    <h4>{{member.codeName}}</h4>
-                    <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
+                    <h4>{{certifiedMember.codeName}}</h4>
+                    <p class="hidden-xs">{{certifiedMember.firstName}} {{certifiedMember.lastName}}</p>
                     <div class="member-icons">
                         <ng4-fa name="facebook-square" size="2x"></ng4-fa>
                         <ng4-fa name="instagram" size="2x"></ng4-fa>
@@ -45,12 +45,12 @@
         </div>
         <br>
         <div class="row text-center">
-            <div *ngFor="let member of members" class="col-sm-6 col-lg-3">
+            <div *ngFor="let honoraryMember of honoraryMembers" class="col-sm-6 col-lg-3">
                 <div class="honorary-card rounded">
                     <img src="http://placeimg.com/260/260/animals" class="rounded-circle hoverable">
                     <br>
-                    <h4>{{member.codeName}}</h4>
-                    <p class="hidden-xs">{{member.firstName}} {{member.lastName}}</p>
+                    <h4>{{honoraryMember.codeName}}</h4>
+                    <p class="hidden-xs">{{honoraryMember.firstName}} {{honoraryMember.lastName}}</p>
                     <div class="member-icons">
                         <ng4-fa name="facebook-square" size="2x"></ng4-fa>
                         <ng4-fa name="instagram" size="2x"></ng4-fa>
