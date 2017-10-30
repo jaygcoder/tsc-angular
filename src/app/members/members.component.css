@@ -1,75 +1,47 @@
-.row {
-    width: 100%;
-    margin: 0;
-    display: block;
+.member-card,
+.honorary-card {
+    box-shadow: 0 4px 8px 0 #36623A;
+    margin: auto;
+    margin-bottom: 1em;
+    max-width: 400px;
 }
 
-.members-grid {
-    text-align: center;
-    padding: 0.15em;
-    width: 100%;
+.member-card img,
+.honorary-card img {
+    margin: 1em;
 }
 
-.members-grid li {
-    list-style: none;
-    padding: 0.30em;
-    background-color: seagreen;
+.member-card ng4-fa,
+.honorary-card ng4-fa {
+    padding: 0.2em;
+    margin: 0.2em;
 }
 
-.members-grid li p,
-.members-grid li h3 {
-    display: block;
-    text-align: center;
+.honorary-card {
+    box-shadow: 0 4px 8px 0 black !important;
+    background-color: white;
 }
 
-.members-grid img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: bottom;
-}
-
-.selected {
-    background-color: rgb(58, 97, 64) !important;
-    color: rgb(226, 226, 226);
-}
-
-
-/*2 in a row*/
-
-@media screen and (min-width: 600px) {
-    .members-grid {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .members-grid li {
-        width: 50%;
-    }
-    .members-grid ls p {
-        text-align: center;
+@media screen and (min-width: 576px) {
+    .member-card img,
+    .honorary-card img {
+        width: 200px;
+        height: 200px;
     }
 }
 
-
-/*4 in a row*/
-
-@media screen and (min-width: 800px) {
-    .members-grid li {
-        width: 25%;
-        max-width: 450px;
-    }
-    .members-grid ls p {
-        text-align: left;
+@media screen and (min-width: 768px) {
+    .member-card img,
+    .honorary-card img {
+        width: 240px;
+        height: 240px;
     }
 }
 
-
-/*6 in a row*/
-
-
-/*
-@media screen and (min-width: 1200px) {
-    .members-grid li {
-        width: 16.66%;
+@media screen and (min-width: 992px) {
+    .member-card img,
+    .honorary-card img {
+        width: 180px;
+        height: 180px;
     }
-}*/
+}

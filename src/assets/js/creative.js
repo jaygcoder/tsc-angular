@@ -1,29 +1,9 @@
 (function($) {
     "use strict"; // Start of use strict
 
-    // Smooth scrolling using jQuery easing
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: (target.offset().top - 48)
-                }, 1000, "easeInOutExpo");
-                return false;
-            }
-        }
-    });
-
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
         $('.navbar-collapse').collapse('hide');
-    });
-
-    // Activate scrollspy to add active class to navbar items on scroll
-    $('body').scrollspy({
-        target: '#mainNav',
-        offset: 48
     });
 
     // Collapse the navbar when page is scrolled
@@ -53,3 +33,11 @@
     }, 300);
 
 })(jQuery); // End of use strict
+
+(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=368926963549934';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));

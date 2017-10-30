@@ -1,17 +1,21 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" routerLink="">{{title}}</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <a class="navbar-brand js-scroll-trigger" routerLink="">
+            <span class="icon-tsclogo d-inline-block align-middle"></span>
+            {{title}}
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" routerLink="/members">Members</a>
+                    <a class="nav-link js-scroll-trigger" routerLink="/members" routerLinkActive="active">Members</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" routerLink="/events">Events</a>
+                    <a class="nav-link js-scroll-trigger" routerLink="/events" routerLinkActive="active">Events</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -23,8 +27,10 @@
         </div>
     </div>
 </nav>
+<ng-progress [color]="'#36623A'" [showSpinner]="false"></ng-progress>
 <!-- Dynamic content goes here -->
 <router-outlet></router-outlet>
 <footer class="bg-primary">
-    <p class="text-white">Copyright, {{year}}</p>
+    <p class="text-white d-inline">Copyright, {{year}}</p>
+    <a routerLink="/credits" class="float-right text-white d-inline">Credits</a>
 </footer>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { Member } from './members/member';
 
@@ -8,9 +8,12 @@ import { Member } from './members/member';
   styleUrls: ['./app.component.css'],
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'The Story Circle';
   slogan = 'Living the Magic, Sharing the Smiles';
   year = new Date().getFullYear().toString();
-  isNavbarCollapsed = true;
+
+  ngOnInit() {
+
+  }
 }

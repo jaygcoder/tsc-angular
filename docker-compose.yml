@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  tsc-angular:
+    image: tsc-angular
+    build: .
+    environment:
+      NODE_ENV: development
+      NPM_CONFIG_PREFIX: /home/node/.npm-global
+    ports:
+      - 8080:8080

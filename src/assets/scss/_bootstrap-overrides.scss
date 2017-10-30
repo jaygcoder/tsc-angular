@@ -24,6 +24,15 @@
     @include sans-serif-font;
 }
 
+.btn-link {
+    color: $theme-primary;
+    margin-top: 1em;
+    &:focus,
+    &:hover {
+        color: darken($theme-primary, .8);
+    }
+}
+
 .btn-xl {
     padding: 15px 30px;
 }
