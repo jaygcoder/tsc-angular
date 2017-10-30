@@ -10,7 +10,7 @@ import { Member } from './member';
 @Injectable()
 export class MemberService {
 
-  private url = 'http://localhost:3000/members';
+  private url = 'https://my-json-server.typicode.com/jaymanx4life/tsc-angular';
 
   constructor(
     private http: Http
