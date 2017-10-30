@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { HttpModule } from '@angular/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
+import { NgProgressModule } from 'ngx-progressbar';
 
 // Components
 import { AppComponent } from './app.component';
@@ -18,6 +20,13 @@ import { MemberService } from './members/member.service';
 
 
 @NgModule({
+  imports: [
+    BrowserModule,
+    HttpModule,
+    AngularFontAwesomeModule,
+    NgProgressModule,
+    AppRoutingModule
+  ],
   declarations: [
     AppComponent,
     MembersComponent,
@@ -25,12 +34,9 @@ import { MemberService } from './members/member.service';
     EventsComponent,
     HomepageComponent,
   ],
-  imports: [
-    BrowserModule,
-    AngularFontAwesomeModule,
-    AppRoutingModule
+  providers: [
+    MemberService
   ],
-  providers: [MemberService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

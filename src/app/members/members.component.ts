@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewChecked } from '@angular/core';
+import { NgProgress } from 'ngx-progressbar';
+
+import { Observable } from 'rxjs/Rx';
 
 import { MemberService } from './member.service';
 import { Member } from './member';
@@ -9,22 +12,48 @@ import { Member } from './member';
   styleUrls: ['./members.component.css']
 })
 
-export class MembersComponent implements OnInit {
+export class MembersComponent implements OnInit, AfterViewChecked {
   title: 'Members';
-  members: Member[];
+  certifiedMembers: Member[];
+  honoraryMembers: Member[];
   selectedMember: Member;
+  loading: boolean;
 
-  constructor(private memberService: MemberService) { }
+  constructor(
+    private memberService: MemberService,
+    public ngProgress: NgProgress
+  ) {}
 
   ngOnInit() {
-    this.getMembers();
+    this.ngProgress.start();
+    this.getMembers('Certified');
+    this.getMembers('Honorary');
+    this.loading = true;
   }
 
-  getMembers(): void {
-    // get Members list from Service, convert to actual DB later
-    this.memberService.getMembers()
-      .then(members => this.members = members);
+  ngAfterViewChecked() {
+    this.ngProgress.done();
+    this.loading = false;
   }
+
+  getMembers(type: string): void {
+    // get Members list from Service, convert to actual DB later
+    const memberHolder: Observable<Member[]> = this.memberService.getMembersByType(type);
+    if (type === 'Certified') {
+      memberHolder.subscribe(members => this.certifiedMembers = members,
+        err => {
+          console.log('Error!');
+          console.log(err);
+        });
+    } else if (type === 'Honorary') {
+      memberHolder.subscribe(members => this.honoraryMembers = members,
+        err => {
+          console.log('Error!');
+          console.log(err);
+        });
+    }
+  }
+
 
   onSelect(member: Member): void {
     this.selectedMember = member;
