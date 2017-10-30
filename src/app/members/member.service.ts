@@ -10,15 +10,19 @@ import { Member } from './member';
 @Injectable()
 export class MemberService {
 
-  private url = 'https://my-json-server.typicode.com/jaymanx4life/tsc-angular';
+  private url = 'https://my-json-server.typicode.com/jaymanx4life/tsc-angular/members';
 
   constructor(
     private http: Http
   ) {}
 
   getMembers(): Observable<Member[]> {
-    return this.http.get(this.url)
-        .map((res: Response) => res.json())
+    const response: Observable<Response> =  this.http.get(this.url);
+    response.subscribe(resp => {
+          console.log(resp.headers.get('X-Custom-Header'));
+          console.log(resp.headers.append('content-type', 'application/json'));
+        });
+      return response.map((res: Response) => res.json())
         .catch((error: any) => Observable.throw(error.json().error || 'Server error'));
   }
 
