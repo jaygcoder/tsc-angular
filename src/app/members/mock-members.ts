@@ -384,7 +384,8 @@ const MEMBERS: Member[] = [
     intro: 'http://thestorycircle.proboards.com/thread/779/hello-name-reuben-lardizabal',
     batch: 'NA'
 }, {
-    firstName: 'Arjay Ocampo Jr.',
+    firstName: 'Arjay',
+    lastName: 'Ocampo Jr.',
     codeName: 'dude',
     startedMagic: '2015',
     specialty: 'close up magic',
@@ -423,14 +424,16 @@ const MEMBERS: Member[] = [
     intro: 'http://thestorycircle.proboards.com/thread/881/introduction-vanz',
     batch: '14'
 }, {
-    firstName: 'Aldisher Diwallay',
+    firstName: 'Aldisher',
+    lastName: 'Diwallay',
     codeName: 'musingan',
     startedMagic: '8 years old',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/942/re-introduction',
     batch: '15'
 }, {
-    firstName: 'Mac Florendo',
+    firstName: 'Mac',
+    lastName: 'Florendo',
     codeName: ' macflorendo',
     startedMagic: 'a long time ago',
     specialty: 'close up magic',
@@ -445,7 +448,8 @@ const MEMBERS: Member[] = [
     intro: 'http://thestorycircle.proboards.com/thread/826/intro-ulit',
     batch: '15'
 }, {
-    firstName: 'Afred Garduque',
+    firstName: 'Afred',
+    lastName: 'Garduque',
     codeName: ' alfred',
     startedMagic: 'a long time ago',
     specialty: 'stage magic',
