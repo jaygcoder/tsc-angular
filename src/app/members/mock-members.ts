@@ -85,7 +85,7 @@ const MEMBERS: Member[] = [
     codeName: 'kuyadear',
     startedMagic: 'since 2009',
     specialty: 'mentalism',
-    intro: 'thestorycircle.proboards.com/post/213/thread',
+    intro: 'http://thestorycircle.proboards.com/post/213/thread',
     batch: '9'
 }, {
     firstName: 'John Matthew',
@@ -93,7 +93,7 @@ const MEMBERS: Member[] = [
     codeName: 'plemplem',
     startedMagic: 'since 2nd year college',
     specialty: 'Cards',
-    intro: 'thestorycircle.proboards.com/post/173/thread',
+    intro: 'http://thestorycircle.proboards.com/post/173/thread',
     batch: '10'
 }, {
     firstName: 'Cardino',
@@ -101,7 +101,7 @@ const MEMBERS: Member[] = [
     codeName: 'cakit',
     startedMagic: '12 years old',
     specialty: 'mentalism',
-    intro: 'thestorycircle.proboards.com/post/44/thread',
+    intro: 'http://thestorycircle.proboards.com/post/44/thread',
     batch: '1'
 }, {
     firstName: 'Justin',
@@ -109,7 +109,7 @@ const MEMBERS: Member[] = [
     codeName: 'mentalassassin',
     startedMagic: '7 years old',
     specialty: 'mentalism',
-    intro: 'thestorycircle.proboards.com/post/108/thread',
+    intro: 'http://thestorycircle.proboards.com/post/108/thread',
     batch: '7'
 }, {
     firstName: 'Aaron',
@@ -117,7 +117,7 @@ const MEMBERS: Member[] = [
     codeName: 'agaton',
     startedMagic: '7 years old',
     specialty: 'close up magic',
-    intro: 'thestorycircle.proboards.com/post/26/thread',
+    intro: 'http://thestorycircle.proboards.com/post/26/thread',
     batch: '8'
 }, {
     firstName: 'Frederick',
@@ -125,7 +125,7 @@ const MEMBERS: Member[] = [
     codeName: 'davidstong',
     startedMagic: '13 years old',
     specialty: 'coins',
-    intro: 'thestorycircle.proboards.com/post/2459/thread',
+    intro: 'http://thestorycircle.proboards.com/post/2459/thread',
     batch: '2'
 }, {
     firstName: 'Jose Marie',
@@ -133,7 +133,7 @@ const MEMBERS: Member[] = [
     codeName: 'tazoinfusion',
     startedMagic: '10 years old',
     specialty: 'cards',
-    intro: 'thestorycircle.proboards.com/post/419/thread',
+    intro: 'http://thestorycircle.proboards.com/post/419/thread',
     batch: '6'
 }, {
     firstName: 'Josef Brian',
@@ -141,7 +141,7 @@ const MEMBERS: Member[] = [
     codeName: 'ernest',
     startedMagic: 'since 2006',
     specialty: 'close up magic',
-    intro: 'thestorycircle.proboards.com/post/382/thread',
+    intro: 'http://thestorycircle.proboards.com/post/382/thread',
     batch: '2'
 }, {
     firstName: 'Mark Andrew',
@@ -149,7 +149,7 @@ const MEMBERS: Member[] = [
     codeName: 'Markgician',
     startedMagic: 'since high school',
     specialty: 'coins, dove magic',
-    intro: 'thestorycircle.proboards.com/post/470/thread',
+    intro: 'http://thestorycircle.proboards.com/post/470/thread',
     batch: '8'
 }, {
     firstName: 'Jake',
@@ -157,7 +157,7 @@ const MEMBERS: Member[] = [
     codeName: 'lordrake',
     startedMagic: 'a long time ago',
     specialty: 'mentalism',
-    intro: 'thestorycircle.proboards.com/post/304/thread',
+    intro: 'http://thestorycircle.proboards.com/post/304/thread',
     batch: '2'
 }, {
     firstName: 'Angelito',
@@ -165,7 +165,7 @@ const MEMBERS: Member[] = [
     codeName: 'ang3l',
     startedMagic: 'since 2005',
     specialty: 'close up magic',
-    intro: 'thestorycircle.proboards.com/post/580/thread',
+    intro: 'http://thestorycircle.proboards.com/post/580/thread',
     batch: '1'
 }, {
     firstName: 'Jay-Ar',
@@ -173,7 +173,7 @@ const MEMBERS: Member[] = [
     codeName: 'raito',
     startedMagic: '2007',
     specialty: 'cards, coins',
-    intro: 'thestorycircle.proboards.com/post/1292/thread',
+    intro: 'http://thestorycircle.proboards.com/post/1292/thread',
     batch: '7'
 }, {
     firstName: 'Ricky',
@@ -181,7 +181,7 @@ const MEMBERS: Member[] = [
     codeName: 'stylesofmind',
     startedMagic: '12 years old',
     specialty: 'mentalism',
-    intro: 'thestorycircle.proboards.com/post/950/thread',
+    intro: 'http://thestorycircle.proboards.com/post/950/thread',
     batch: '6'
 }, {
     firstName: 'Exequiel',
@@ -189,7 +189,7 @@ const MEMBERS: Member[] = [
     codeName: 'feelgood',
     startedMagic: 'a long time ago',
     specialty: 'close up /stage magic',
-    intro: 'thestorycircle.proboards.com/post/1909/thread',
+    intro: 'http://thestorycircle.proboards.com/post/1909/thread',
     batch: '8'
 }, {
     firstName: 'Patrick Dan',
@@ -197,7 +197,7 @@ const MEMBERS: Member[] = [
     codeName: 'elmagikero',
     startedMagic: 'a long time ago',
     specialty: 'close up magic',
-    intro: 'thestorycircle.proboards.com/post/1884/thread',
+    intro: 'http://thestorycircle.proboards.com/post/1884/thread',
     batch: 'NA'
 }, {
     firstName: 'Ody',
@@ -205,7 +205,7 @@ const MEMBERS: Member[] = [
     codeName: 'odymagic',
     startedMagic: '14 years old',
     specialty: 'closeup/stage magic',
-    intro: 'thestorycircle.proboards.com/post/1702/thread',
+    intro: 'http://thestorycircle.proboards.com/post/1702/thread',
     batch: '1'
 }, {
     firstName: 'Michael',
@@ -213,7 +213,7 @@ const MEMBERS: Member[] = [
     codeName: 'vivitron17',
     startedMagic: 'since 2003',
     specialty: 'close up magic',
-    intro: 'thestorycircle.proboards.com/post/334/thread',
+    intro: 'http://thestorycircle.proboards.com/post/334/thread',
     batch: '1'
 }, {
     firstName: 'Chris',
@@ -221,7 +221,7 @@ const MEMBERS: Member[] = [
     codeName: 'xebec',
     startedMagic: '8 years old',
     specialty: 'cards',
-    intro: 'thestorycircle.proboards.com/post/209/thread',
+    intro: 'http://thestorycircle.proboards.com/post/209/thread',
     batch: '10'
 }, {
     firstName: 'Froilan',
@@ -229,7 +229,7 @@ const MEMBERS: Member[] = [
     codeName: 'kidrock',
     startedMagic: 'since 2008',
     specialty: 'cards, coins',
-    intro: 'thestorycircle.proboards.com/post/11/thread',
+    intro: 'http://thestorycircle.proboards.com/post/11/thread',
     batch: '9'
 }, {
     firstName: 'Sam',
@@ -237,7 +237,7 @@ const MEMBERS: Member[] = [
     codeName: 'gotcha',
     startedMagic: 'a long time ago',
     specialty: 'bizaare magic',
-    intro: 'thestorycircle.proboards.com/post/3264/thread',
+    intro: 'http://thestorycircle.proboards.com/post/3264/thread',
     batch: '10'
 }, {
     firstName: 'Hyzel Mark',
@@ -245,7 +245,7 @@ const MEMBERS: Member[] = [
     codeName: 'hyzel',
     startedMagic: 'a long time ago',
     specialty: 'cards',
-    intro: 'thestorycircle.proboards.com/post/2386/thread',
+    intro: 'http://thestorycircle.proboards.com/post/2386/thread',
     batch: '7'
 }, {
     firstName: 'Ayumi',
@@ -253,7 +253,7 @@ const MEMBERS: Member[] = [
     codeName: 'mingming',
     startedMagic: 'a long time ago',
     specialty: 'cards, rings',
-    intro: 'thestorycircle.proboards.com/post/8360/thread',
+    intro: 'http://thestorycircle.proboards.com/post/8360/thread',
     batch: 'NA'
 }, {
     firstName: 'Mark Lester',
@@ -261,7 +261,7 @@ const MEMBERS: Member[] = [
     codeName: 'markgic',
     startedMagic: 'Grade 6',
     specialty: 'close up magic, contact juggling',
-    intro: 'thestorycircle.proboards.com/post/29/thread',
+    intro: 'http://thestorycircle.proboards.com/post/29/thread',
     batch: '1'
 }, {
     firstName: 'Ronaldo',
@@ -269,7 +269,7 @@ const MEMBERS: Member[] = [
     codeName: 'docronnie',
     startedMagic: 'a long time ago',
     specialty: 'close up magic',
-    intro: 'thestorycircle.proboards.com/post/89/thread',
+    intro: 'http://thestorycircle.proboards.com/post/89/thread',
     batch: '1'
 }, {
     firstName: 'Antony',
@@ -301,7 +301,7 @@ const MEMBERS: Member[] = [
     codeName: 'fons',
     startedMagic: '4th year high school',
     specialty: 'cards',
-    intro: 'thestorycircle.proboards.com/post/9240/thread',
+    intro: 'http://thestorycircle.proboards.com/post/9240/thread',
     batch: '12'
 }, {
     firstName: 'Jay Mar',
