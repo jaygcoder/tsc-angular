@@ -1,120 +1,457 @@
 {
-    "members": [
-        {
-            "id": 1,
-            "codeName": "memberA",
-            "firstName": "Member",
-            "lastName": "A",
-            "batch": 1,
-            "type": "Certified"
-        },
-        {
-            "id": 2,
-            "codeName": "memberB",
-            "firstName": "Member",
-            "lastName": "B",
-            "batch": 8,
-            "type": "Certified",
-            "fb_page": "memberb"
-        },
-        {
-            "id": 3,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "C",
-            "batch": 7,
-            "type": "Certified",
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 4,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "D",
-            "batch": 6,
-            "type": "Honorary",
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 5,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "E",
-            "batch": 6,
-            "type": "Honorary",
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 6,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "F",
-            "batch": 2,
-            "type": "Honorary",
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 7,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "G",
-            "type": "Honorary",
-            "batch": 3,
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 8,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "H",
-            "type": "Certified",
-            "batch": 4,
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 9,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "I",
-            "type": "Certified",
-            "batch": 6,
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 10,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "J",
-            "type": "Certified",
-            "batch": 6,
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        },
-        {
-            "id": 1,
-            "codeName": "member",
-            "firstName": "Member",
-            "lastName": "K",
-            "batch": 12,
-            "type": "Honorary",
-            "fb_page": "chrislinamagic",
-            "ig_page": "chrislinamagic",
-            "tw_page": "chrislinamagic"
-        }
-    ]
+    "members": [{
+        "firstName": "Raymund Rouss",
+        "lastName": "Reyes",
+        "codeName": "mamot",
+        "startedMagic": "2003",
+        "specialty": "close up magic",
+        "batch": "0",
+        "intro": "http://thestorycircle.proboards.com/thread/103/mamot"
+    }, {
+        "firstName": "Daniel Lei",
+        "lastName": "Sarmiento",
+        "codeName": "simplyjessie",
+        "startedMagic": "grade 5",
+        "specialty": "mentalism",
+        "batch": "0",
+        "intro": "http://thestorycircle.proboards.com/thread/451/simplyjessie-finally"
+    }, {
+        "firstName": "Richard",
+        "lastName": "Gutierrez",
+        "codeName": "trycks",
+        "startedMagic": "1998",
+        "specialty": "cards, coins, and general close up magic",
+        "batch": "0",
+        "intro": "http://thestorycircle.proboards.com/thread/7/trycks"
+    }, {
+        "firstName": "Rommel",
+        "lastName": "Torres",
+        "codeName": "n/a",
+        "startedMagic": "a long time ago",
+        "batch": "0",
+        "specialty": "close up magic"
+    }, {
+        "firstName": "George",
+        "lastName": "Tam",
+        "codeName": "jiggy",
+        "startedMagic": "a long time ago",
+        "batch": "0",
+        "specialty": "close up magic"
+    }, {
+        "firstName": "Joanne",
+        "lastName": "Sebastian",
+        "codeName": "joannie",
+        "startedMagic": "2007",
+        "specialty": "Cards",
+        "intro": "http://thestorycircle.proboards.com/thread/243/intro",
+        "batch": "1"
+    }, {
+        "firstName": "John Marlon",
+        "lastName": "Bacalla",
+        "codeName": "jM",
+        "startedMagic": "2010",
+        "specialty": "Cards",
+        "intro": "http://thestorycircle.proboards.com/thread/18/hello-guys",
+        "batch": "10"
+    }, {
+        "firstName": "Rovin John",
+        "lastName": "Datu",
+        "codeName": "magicianpunks",
+        "startedMagic": "2010",
+        "specialty": "close-up magic",
+        "intro": "http://thestorycircle.proboards.com/thread/26/hello-po-sa-inyo",
+        "batch": "12"
+    }, {
+        "firstName": "James",
+        "lastName": "Gaffud",
+        "codeName": "james",
+        "startedMagic": "a long time ago",
+        "specialty": "Coins",
+        "intro": "http://thestorycircle.proboards.com/thread/28/james-signing",
+        "batch": "2"
+    }, {
+        "firstName": "Terence Jovan",
+        "lastName": "Garcia Lopez",
+        "codeName": "tenkai",
+        "startedMagic": "a long time ago",
+        "specialty": "close-up magic",
+        "intro": "http://thestorycircle.proboards.com/thread/336/3oww-powwzz-re-intro-tenkai",
+        "batch": "2"
+    }, {
+        "firstName": "Giancarlo",
+        "lastName": "Urbano",
+        "codeName": "kuyadear",
+        "startedMagic": "since 2009",
+        "specialty": "mentalism",
+        "intro": "http://thestorycircle.proboards.com/post/213/thread",
+        "batch": "9"
+    }, {
+        "firstName": "John Matthew",
+        "lastName": "Lugue",
+        "codeName": "plemplem",
+        "startedMagic": "since 2nd year college",
+        "specialty": "Cards",
+        "intro": "http://thestorycircle.proboards.com/post/173/thread",
+        "batch": "10"
+    }, {
+        "firstName": "Cardino",
+        "lastName": "Yee",
+        "codeName": "cakit",
+        "startedMagic": "12 years old",
+        "specialty": "mentalism",
+        "intro": "http://thestorycircle.proboards.com/post/44/thread",
+        "batch": "1"
+    }, {
+        "firstName": "Justin",
+        "lastName": "Piñon",
+        "codeName": "mentalassassin",
+        "startedMagic": "7 years old",
+        "specialty": "mentalism",
+        "intro": "http://thestorycircle.proboards.com/post/108/thread",
+        "batch": "7"
+    }, {
+        "firstName": "Aaron",
+        "lastName": "Atienza",
+        "codeName": "agaton",
+        "startedMagic": "7 years old",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/post/26/thread",
+        "batch": "8"
+    }, {
+        "firstName": "Frederick",
+        "lastName": "Garcia",
+        "codeName": "davidstong",
+        "startedMagic": "13 years old",
+        "specialty": "coins",
+        "intro": "http://thestorycircle.proboards.com/post/2459/thread",
+        "batch": "2"
+    }, {
+        "firstName": "Jose Marie",
+        "lastName": "De Mesa",
+        "codeName": "tazoinfusion",
+        "startedMagic": "10 years old",
+        "specialty": "cards",
+        "intro": "http://thestorycircle.proboards.com/post/419/thread",
+        "batch": "6"
+    }, {
+        "firstName": "Josef Brian",
+        "lastName": "Hapita",
+        "codeName": "ernest",
+        "startedMagic": "since 2006",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/post/382/thread",
+        "batch": "2"
+    }, {
+        "firstName": "Mark Andrew",
+        "lastName": "Viernes",
+        "codeName": "Markgician",
+        "startedMagic": "since high school",
+        "specialty": "coins, dove magic",
+        "intro": "http://thestorycircle.proboards.com/post/470/thread",
+        "batch": "8"
+    }, {
+        "firstName": "Jake",
+        "lastName": "Gacus",
+        "codeName": "lordrake",
+        "startedMagic": "a long time ago",
+        "specialty": "mentalism",
+        "intro": "http://thestorycircle.proboards.com/post/304/thread",
+        "batch": "2"
+    }, {
+        "firstName": "Angelito",
+        "lastName": "Castro",
+        "codeName": "ang3l",
+        "startedMagic": "since 2005",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/post/580/thread",
+        "batch": "1"
+    }, {
+        "firstName": "Jay-Ar",
+        "lastName": "Dela Cruz",
+        "codeName": "raito",
+        "startedMagic": "2007",
+        "specialty": "cards, coins",
+        "intro": "http://thestorycircle.proboards.com/post/1292/thread",
+        "batch": "7"
+    }, {
+        "firstName": "Ricky",
+        "lastName": "Janeo",
+        "codeName": "stylesofmind",
+        "startedMagic": "12 years old",
+        "specialty": "mentalism",
+        "intro": "http://thestorycircle.proboards.com/post/950/thread",
+        "batch": "6"
+    }, {
+        "firstName": "Exequiel",
+        "lastName": "Mallari",
+        "codeName": "feelgood",
+        "startedMagic": "a long time ago",
+        "specialty": "close up /stage magic",
+        "intro": "http://thestorycircle.proboards.com/post/1909/thread",
+        "batch": "8"
+    }, {
+        "firstName": "Patrick Dan",
+        "lastName": "Laceste",
+        "codeName": "elmagikero",
+        "startedMagic": "a long time ago",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/post/1884/thread",
+        "batch": "NA"
+    }, {
+        "firstName": "Ody",
+        "lastName": " Sto.Domingo",
+        "codeName": "odymagic",
+        "startedMagic": "14 years old",
+        "specialty": "closeup/stage magic",
+        "intro": "http://thestorycircle.proboards.com/post/1702/thread",
+        "batch": "1"
+    }, {
+        "firstName": "Michael",
+        "lastName": "Mangila",
+        "codeName": "vivitron17",
+        "startedMagic": "since 2003",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/post/334/thread",
+        "batch": "1"
+    }, {
+        "firstName": "Chris",
+        "lastName": "Lina",
+        "codeName": "xebec",
+        "startedMagic": "8 years old",
+        "specialty": "cards",
+        "intro": "http://thestorycircle.proboards.com/post/209/thread",
+        "batch": "10"
+    }, {
+        "firstName": "Froilan",
+        "lastName": "Chavez",
+        "codeName": "kidrock",
+        "startedMagic": "since 2008",
+        "specialty": "cards, coins",
+        "intro": "http://thestorycircle.proboards.com/post/11/thread",
+        "batch": "9"
+    }, {
+        "firstName": "Sam",
+        "lastName": "Halili",
+        "codeName": "gotcha",
+        "startedMagic": "a long time ago",
+        "specialty": "bizaare magic",
+        "intro": "http://thestorycircle.proboards.com/post/3264/thread",
+        "batch": "10"
+    }, {
+        "firstName": "Hyzel Mark",
+        "lastName": "Granadozin",
+        "codeName": "hyzel",
+        "startedMagic": "a long time ago",
+        "specialty": "cards",
+        "intro": "http://thestorycircle.proboards.com/post/2386/thread",
+        "batch": "7"
+    }, {
+        "firstName": "Ayumi",
+        "lastName": "Pamilar",
+        "codeName": "mingming",
+        "startedMagic": "a long time ago",
+        "specialty": "cards, rings",
+        "intro": "http://thestorycircle.proboards.com/post/8360/thread",
+        "batch": "NA"
+    }, {
+        "firstName": "Mark Lester",
+        "lastName": "Subong",
+        "codeName": "markgic",
+        "startedMagic": "Grade 6",
+        "specialty": "close up magic, contact juggling",
+        "intro": "http://thestorycircle.proboards.com/post/29/thread",
+        "batch": "1"
+    }, {
+        "firstName": "Ronaldo",
+        "lastName": "Moraleta",
+        "codeName": "docronnie",
+        "startedMagic": "a long time ago",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/post/89/thread",
+        "batch": "1"
+    }, {
+        "firstName": "Antony",
+        "lastName": "Andres",
+        "codeName": "NA",
+        "startedMagic": "a long time ago",
+        "specialty": "close up /stand up magic",
+        "intro": "NA",
+        "batch": "NA"
+    }, {
+        "firstName": "Vernon",
+        "lastName": "De Vera",
+        "codeName": "draccigam",
+        "startedMagic": "a long time ago",
+        "specialty": "cards,ring, illusion",
+        "intro": "",
+        "batch": "NA"
+    }, {
+        "firstName": "John Randolph",
+        "lastName": "Madrigal",
+        "codeName": "janjan",
+        "startedMagic": "a long time ago",
+        "specialty": "cards, coins",
+        "intro": "http://thestorycircle.proboards.com/thread/784/introduction-yu-ho-jan",
+        "batch": "12"
+    }, {
+        "firstName": "Alfonso",
+        "lastName": "Abejuela Jr",
+        "codeName": "fons",
+        "startedMagic": "4th year high school",
+        "specialty": "cards",
+        "intro": "http://thestorycircle.proboards.com/post/9240/thread",
+        "batch": "12"
+    }, {
+        "firstName": "Jay Mar",
+        "lastName": "Garcia",
+        "codeName": "Jayman X",
+        "startedMagic": "since 2013",
+        "specialty": "cards",
+        "intro": "http://thestorycircle.proboards.com/thread/796/introduction",
+        "batch": "12"
+    }, {
+        "firstName": "Dale",
+        "lastName": "Rubio",
+        "codeName": "DaleRubio",
+        "startedMagic": "since 2007",
+        "specialty": "cards",
+        "intro": "http://thestorycircle.proboards.com/thread/786/dale-rubio-bow",
+        "batch": "13"
+    }, {
+        "firstName": "James Danielle",
+        "lastName": "Gabe",
+        "codeName": "Jeimuzu",
+        "startedMagic": "a long time ago",
+        "specialty": "cards, linking rings",
+        "intro": "http://thestorycircle.proboards.com/thread/844/intro",
+        "batch": "13"
+    }, {
+        "firstName": "Alvin Dave",
+        "lastName": "Bertumen",
+        "codeName": "caster",
+        "startedMagic": "since he was 17",
+        "specialty": "rubber band magic",
+        "intro": "http://thestorycircle.proboards.com/thread/542/revise-intro-caster",
+        "batch": "13"
+    }, {
+        "firstName": "Christian",
+        "lastName": "Acuyong",
+        "codeName": "christatic",
+        "startedMagic": "since 2013",
+        "specialty": "cards/cardistry",
+        "intro": "http://thestorycircle.proboards.com/thread/855/introduction",
+        "batch": "13"
+    }, {
+        "firstName": "Jonas Byron",
+        "lastName": "Obada",
+        "codeName": "jonasbyron",
+        "startedMagic": "since 2007",
+        "specialty": "cards/mentalism",
+        "intro": "http://thestorycircle.proboards.com/thread/187/introduction",
+        "batch": "7"
+    }, {
+        "firstName": "Robert",
+        "lastName": "LaRue",
+        "codeName": "omnibozo",
+        "startedMagic": "a long time ago",
+        "specialty": "close up  magic/mentalism",
+        "intro": "http://thestorycircle.proboards.com/thread/782/intro-bob-larue",
+        "batch": "H"
+    }, {
+        "firstName": "Adrian",
+        "lastName": "Gurango",
+        "codeName": "crossifixio",
+        "startedMagic": "2011",
+        "specialty": "close up  magic",
+        "intro": "http://thestorycircle.proboards.com/thread/757/hello-guys",
+        "batch": "13"
+    }, {
+        "firstName": "Solomon",
+        "lastName": "Yap",
+        "codeName": "NA",
+        "startedMagic": "",
+        "specialty": "close up / coin  magic",
+        "intro": "",
+        "batch": "H"
+    }, {
+        "firstName": "Reuben Rafael",
+        "lastName": "Lardizabal",
+        "codeName": "reubenlardizabal",
+        "startedMagic": "2008",
+        "specialty": "close up/stage magic",
+        "intro": "http://thestorycircle.proboards.com/thread/779/hello-name-reuben-lardizabal",
+        "batch": "NA"
+    }, {
+        "firstName": "Arjay",
+        "lastName": "Ocampo Jr.",
+        "codeName": "dude",
+        "startedMagic": "2015",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/thread/875/introduction-rj",
+        "batch": "14"
+    }, {
+        "firstName": "James",
+        "lastName": "Cortes",
+        "codeName": "JamesCortes",
+        "startedMagic": "2011",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/thread/915/introduction",
+        "batch": "14"
+    }, {
+        "firstName": "Jofer",
+        "lastName": "Abata",
+        "codeName": "jomagics",
+        "startedMagic": "2009",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/thread/834/jomagics",
+        "batch": "14"
+    }, {
+        "firstName": "Macky Winstone",
+        "lastName": "Gatchealejo",
+        "codeName": "mackymagic",
+        "startedMagic": "2012",
+        "specialty": "close up magic/mentalism",
+        "intro": "http://thestorycircle.proboards.com/thread/874/introduction",
+        "batch": "14"
+    }, {
+        "firstName": "Ivan",
+        "lastName": "Cadiente",
+        "codeName": "vnz",
+        "startedMagic": "2008",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/thread/881/introduction-vanz",
+        "batch": "14"
+    }, {
+        "firstName": "Aldisher",
+        "lastName": "Diwallay",
+        "codeName": "musingan",
+        "startedMagic": "8 years old",
+        "specialty": "close up magic",
+        "intro": "http://thestorycircle.proboards.com/thread/942/re-introduction",
+        "batch": "15"
+    }, {
+        "firstName": "Mac",
+        "lastName": "Florendo",
+        "codeName": " macflorendo",
+        "startedMagic": "a long time ago",
+        "specialty": "close up magic",
+        "intro": " http://thestorycircle.proboards.com/thread/932/introduction-mac-florendo",
+        "batch": "15"
+    }, {
+        "firstName": "Arbien",
+        "lastName": "Sonza",
+        "codeName": "Pinchik",
+        "startedMagic": "2008",
+        "specialty": "cards",
+        "intro": "http://thestorycircle.proboards.com/thread/826/intro-ulit",
+        "batch": "15"
+    }, {
+        "firstName": "Afred",
+        "lastName": "Garduque",
+        "codeName": " alfred",
+        "startedMagic": "a long time ago",
+        "specialty": "stage magic",
+        "intro": " http://thestorycircle.proboards.com/thread/600/hi-alfred",
+        "batch": "15"
+    }]
 }
