@@ -6,6 +6,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 import { Member } from './member';
+import { MEMBERS } from './mock-members';
 
 @Injectable()
 export class MemberService {

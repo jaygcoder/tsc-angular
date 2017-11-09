@@ -1,6 +1,6 @@
 import { Member } from './member';
 
-const MEMBERS: Member[] = [
+export const MEMBERS: Member[] = [
   {
     firstName: 'Raymund Rouss',
     lastName: 'Reyes',
