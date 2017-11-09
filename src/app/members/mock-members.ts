@@ -1,7 +1,7 @@
 import { Member } from './member';
 
 const MEMBERS: Member[] = [
-{
+  {
     firstName: 'Raymund Rouss',
     lastName: 'Reyes',
     codeName: 'mamot',
@@ -9,7 +9,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     batch: '0',
     intro: 'http://thestorycircle.proboards.com/thread/103/mamot'
-}, {
+  }, {
     firstName: 'Daniel Lei',
     lastName: 'Sarmiento',
     codeName: 'simplyjessie',
@@ -17,7 +17,7 @@ const MEMBERS: Member[] = [
     specialty: 'mentalism',
     batch: '0',
     intro: 'http://thestorycircle.proboards.com/thread/451/simplyjessie-finally'
-}, {
+  }, {
     firstName: 'Richard',
     lastName: 'Gutierrez',
     codeName: 'trycks',
@@ -25,21 +25,21 @@ const MEMBERS: Member[] = [
     specialty: 'cards, coins, and general close up magic',
     batch: '0',
     intro: 'http://thestorycircle.proboards.com/thread/7/trycks'
-}, {
+  }, {
     firstName: 'Rommel',
     lastName: 'Torres',
     codeName: 'n/a',
     startedMagic: 'a long time ago',
     batch: '0',
     specialty: 'close up magic'
-}, {
+  }, {
     firstName: 'George',
     lastName: 'Tam',
     codeName: 'jiggy',
     startedMagic: 'a long time ago',
     batch: '0',
     specialty: 'close up magic'
-}, {
+  }, {
     firstName: 'Joanne',
     lastName: 'Sebastian',
     codeName: 'joannie',
@@ -47,7 +47,7 @@ const MEMBERS: Member[] = [
     specialty: 'Cards',
     intro: 'http://thestorycircle.proboards.com/thread/243/intro',
     batch: '1'
-}, {
+  }, {
     firstName: 'John Marlon',
     lastName: 'Bacalla',
     codeName: 'jM',
@@ -55,7 +55,7 @@ const MEMBERS: Member[] = [
     specialty: 'Cards',
     intro: 'http://thestorycircle.proboards.com/thread/18/hello-guys',
     batch: '10'
-}, {
+  }, {
     firstName: 'Rovin John',
     lastName: 'Datu',
     codeName: 'magicianpunks',
@@ -63,7 +63,7 @@ const MEMBERS: Member[] = [
     specialty: 'close-up magic',
     intro: 'http://thestorycircle.proboards.com/thread/26/hello-po-sa-inyo',
     batch: '12'
-}, {
+  }, {
     firstName: 'James',
     lastName: 'Gaffud',
     codeName: 'james',
@@ -71,7 +71,7 @@ const MEMBERS: Member[] = [
     specialty: 'Coins',
     intro: 'http://thestorycircle.proboards.com/thread/28/james-signing',
     batch: '2'
-}, {
+  }, {
     firstName: 'Terence Jovan',
     lastName: 'Garcia Lopez',
     codeName: 'tenkai',
@@ -79,7 +79,7 @@ const MEMBERS: Member[] = [
     specialty: 'close-up magic',
     intro: 'http://thestorycircle.proboards.com/thread/336/3oww-powwzz-re-intro-tenkai',
     batch: '2'
-}, {
+  }, {
     firstName: 'Giancarlo',
     lastName: 'Urbano',
     codeName: 'kuyadear',
@@ -87,7 +87,7 @@ const MEMBERS: Member[] = [
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/213/thread',
     batch: '9'
-}, {
+  }, {
     firstName: 'John Matthew',
     lastName: 'Lugue',
     codeName: 'plemplem',
@@ -95,7 +95,7 @@ const MEMBERS: Member[] = [
     specialty: 'Cards',
     intro: 'http://thestorycircle.proboards.com/post/173/thread',
     batch: '10'
-}, {
+  }, {
     firstName: 'Cardino',
     lastName: 'Yee',
     codeName: 'cakit',
@@ -103,7 +103,7 @@ const MEMBERS: Member[] = [
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/44/thread',
     batch: '1'
-}, {
+  }, {
     firstName: 'Justin',
     lastName: 'Piñon',
     codeName: 'mentalassassin',
@@ -111,7 +111,7 @@ const MEMBERS: Member[] = [
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/108/thread',
     batch: '7'
-}, {
+  }, {
     firstName: 'Aaron',
     lastName: 'Atienza',
     codeName: 'agaton',
@@ -119,7 +119,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/26/thread',
     batch: '8'
-}, {
+  }, {
     firstName: 'Frederick',
     lastName: 'Garcia',
     codeName: 'davidstong',
@@ -127,7 +127,7 @@ const MEMBERS: Member[] = [
     specialty: 'coins',
     intro: 'http://thestorycircle.proboards.com/post/2459/thread',
     batch: '2'
-}, {
+  }, {
     firstName: 'Jose Marie',
     lastName: 'De Mesa',
     codeName: 'tazoinfusion',
@@ -135,7 +135,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/419/thread',
     batch: '6'
-}, {
+  }, {
     firstName: 'Josef Brian',
     lastName: 'Hapita',
     codeName: 'ernest',
@@ -143,7 +143,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/382/thread',
     batch: '2'
-}, {
+  }, {
     firstName: 'Mark Andrew',
     lastName: 'Viernes',
     codeName: 'Markgician',
@@ -151,7 +151,7 @@ const MEMBERS: Member[] = [
     specialty: 'coins, dove magic',
     intro: 'http://thestorycircle.proboards.com/post/470/thread',
     batch: '8'
-}, {
+  }, {
     firstName: 'Jake',
     lastName: 'Gacus',
     codeName: 'lordrake',
@@ -159,7 +159,7 @@ const MEMBERS: Member[] = [
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/304/thread',
     batch: '2'
-}, {
+  }, {
     firstName: 'Angelito',
     lastName: 'Castro',
     codeName: 'ang3l',
@@ -167,7 +167,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/580/thread',
     batch: '1'
-}, {
+  }, {
     firstName: 'Jay-Ar',
     lastName: 'Dela Cruz',
     codeName: 'raito',
@@ -175,7 +175,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards, coins',
     intro: 'http://thestorycircle.proboards.com/post/1292/thread',
     batch: '7'
-}, {
+  }, {
     firstName: 'Ricky',
     lastName: 'Janeo',
     codeName: 'stylesofmind',
@@ -183,7 +183,7 @@ const MEMBERS: Member[] = [
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/950/thread',
     batch: '6'
-}, {
+  }, {
     firstName: 'Exequiel',
     lastName: 'Mallari',
     codeName: 'feelgood',
@@ -191,7 +191,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up /stage magic',
     intro: 'http://thestorycircle.proboards.com/post/1909/thread',
     batch: '8'
-}, {
+  }, {
     firstName: 'Patrick Dan',
     lastName: 'Laceste',
     codeName: 'elmagikero',
@@ -199,7 +199,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/1884/thread',
     batch: 'NA'
-}, {
+  }, {
     firstName: 'Ody',
     lastName: ' Sto.Domingo',
     codeName: 'odymagic',
@@ -207,7 +207,7 @@ const MEMBERS: Member[] = [
     specialty: 'closeup/stage magic',
     intro: 'http://thestorycircle.proboards.com/post/1702/thread',
     batch: '1'
-}, {
+  }, {
     firstName: 'Michael',
     lastName: 'Mangila',
     codeName: 'vivitron17',
@@ -215,7 +215,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/334/thread',
     batch: '1'
-}, {
+  }, {
     firstName: 'Chris',
     lastName: 'Lina',
     codeName: 'xebec',
@@ -223,7 +223,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/209/thread',
     batch: '10'
-}, {
+  }, {
     firstName: 'Froilan',
     lastName: 'Chavez',
     codeName: 'kidrock',
@@ -231,7 +231,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards, coins',
     intro: 'http://thestorycircle.proboards.com/post/11/thread',
     batch: '9'
-}, {
+  }, {
     firstName: 'Sam',
     lastName: 'Halili',
     codeName: 'gotcha',
@@ -239,7 +239,7 @@ const MEMBERS: Member[] = [
     specialty: 'bizaare magic',
     intro: 'http://thestorycircle.proboards.com/post/3264/thread',
     batch: '10'
-}, {
+  }, {
     firstName: 'Hyzel Mark',
     lastName: 'Granadozin',
     codeName: 'hyzel',
@@ -247,7 +247,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/2386/thread',
     batch: '7'
-}, {
+  }, {
     firstName: 'Ayumi',
     lastName: 'Pamilar',
     codeName: 'mingming',
@@ -255,7 +255,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards, rings',
     intro: 'http://thestorycircle.proboards.com/post/8360/thread',
     batch: 'NA'
-}, {
+  }, {
     firstName: 'Mark Lester',
     lastName: 'Subong',
     codeName: 'markgic',
@@ -263,7 +263,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic, contact juggling',
     intro: 'http://thestorycircle.proboards.com/post/29/thread',
     batch: '1'
-}, {
+  }, {
     firstName: 'Ronaldo',
     lastName: 'Moraleta',
     codeName: 'docronnie',
@@ -271,7 +271,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/89/thread',
     batch: '1'
-}, {
+  }, {
     firstName: 'Antony',
     lastName: 'Andres',
     codeName: 'NA',
@@ -279,7 +279,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up /stand up magic',
     intro: 'NA',
     batch: 'NA'
-}, {
+  }, {
     firstName: 'Vernon',
     lastName: 'De Vera',
     codeName: 'draccigam',
@@ -287,7 +287,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards,ring, illusion',
     intro: '',
     batch: 'NA'
-}, {
+  }, {
     firstName: 'John Randolph',
     lastName: 'Madrigal',
     codeName: 'janjan',
@@ -295,7 +295,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards, coins',
     intro: 'http://thestorycircle.proboards.com/thread/784/introduction-yu-ho-jan',
     batch: '12'
-}, {
+  }, {
     firstName: 'Alfonso',
     lastName: 'Abejuela Jr',
     codeName: 'fons',
@@ -303,7 +303,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/9240/thread',
     batch: '12'
-}, {
+  }, {
     firstName: 'Jay Mar',
     lastName: 'Garcia',
     codeName: 'Jayman X',
@@ -311,7 +311,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/thread/796/introduction',
     batch: '12'
-}, {
+  }, {
     firstName: 'Dale',
     lastName: 'Rubio',
     codeName: 'DaleRubio',
@@ -319,7 +319,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/thread/786/dale-rubio-bow',
     batch: '13'
-}, {
+  }, {
     firstName: 'James Danielle',
     lastName: 'Gabe',
     codeName: 'Jeimuzu',
@@ -327,7 +327,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards, linking rings',
     intro: 'http://thestorycircle.proboards.com/thread/844/intro',
     batch: '13'
-}, {
+  }, {
     firstName: 'Alvin Dave',
     lastName: 'Bertumen',
     codeName: 'caster',
@@ -335,7 +335,7 @@ const MEMBERS: Member[] = [
     specialty: 'rubber band magic',
     intro: 'http://thestorycircle.proboards.com/thread/542/revise-intro-caster',
     batch: '13'
-}, {
+  }, {
     firstName: 'Christian',
     lastName: 'Acuyong',
     codeName: 'christatic',
@@ -343,7 +343,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards/cardistry',
     intro: 'http://thestorycircle.proboards.com/thread/855/introduction',
     batch: '13'
-}, {
+  }, {
     firstName: 'Jonas Byron',
     lastName: 'Obada',
     codeName: 'jonasbyron',
@@ -351,7 +351,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards/mentalism',
     intro: 'http://thestorycircle.proboards.com/thread/187/introduction',
     batch: '7'
-}, {
+  }, {
     firstName: 'Robert',
     lastName: 'LaRue',
     codeName: 'omnibozo',
@@ -359,7 +359,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up  magic/mentalism',
     intro: 'http://thestorycircle.proboards.com/thread/782/intro-bob-larue',
     batch: 'H'
-}, {
+  }, {
     firstName: 'Adrian',
     lastName: 'Gurango',
     codeName: 'crossifixio',
@@ -367,7 +367,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up  magic',
     intro: 'http://thestorycircle.proboards.com/thread/757/hello-guys',
     batch: '13'
-}, {
+  }, {
     firstName: 'Solomon',
     lastName: 'Yap',
     codeName: 'NA',
@@ -375,7 +375,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up / coin  magic',
     intro: '',
     batch: 'H'
-}, {
+  }, {
     firstName: 'Reuben Rafael',
     lastName: 'Lardizabal',
     codeName: 'reubenlardizabal',
@@ -383,7 +383,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up/stage magic',
     intro: 'http://thestorycircle.proboards.com/thread/779/hello-name-reuben-lardizabal',
     batch: 'NA'
-}, {
+  }, {
     firstName: 'Arjay',
     lastName: 'Ocampo Jr.',
     codeName: 'dude',
@@ -391,7 +391,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/875/introduction-rj',
     batch: '14'
-}, {
+  }, {
     firstName: 'James',
     lastName: 'Cortes',
     codeName: 'JamesCortes',
@@ -399,7 +399,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/915/introduction',
     batch: '14'
-}, {
+  }, {
     firstName: 'Jofer',
     lastName: 'Abata',
     codeName: 'jomagics',
@@ -407,7 +407,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/834/jomagics',
     batch: '14'
-}, {
+  }, {
     firstName: 'Macky Winstone',
     lastName: 'Gatchealejo',
     codeName: 'mackymagic',
@@ -415,7 +415,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic/mentalism',
     intro: 'http://thestorycircle.proboards.com/thread/874/introduction',
     batch: '14'
-}, {
+  }, {
     firstName: 'Ivan',
     lastName: 'Cadiente',
     codeName: 'vnz',
@@ -423,7 +423,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/881/introduction-vanz',
     batch: '14'
-}, {
+  }, {
     firstName: 'Aldisher',
     lastName: 'Diwallay',
     codeName: 'musingan',
@@ -431,7 +431,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/942/re-introduction',
     batch: '15'
-}, {
+  }, {
     firstName: 'Mac',
     lastName: 'Florendo',
     codeName: ' macflorendo',
@@ -439,7 +439,7 @@ const MEMBERS: Member[] = [
     specialty: 'close up magic',
     intro: ' http://thestorycircle.proboards.com/thread/932/introduction-mac-florendo',
     batch: '15'
-}, {
+  }, {
     firstName: 'Arbien',
     lastName: 'Sonza',
     codeName: 'Pinchik',
@@ -447,7 +447,7 @@ const MEMBERS: Member[] = [
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/thread/826/intro-ulit',
     batch: '15'
-}, {
+  }, {
     firstName: 'Afred',
     lastName: 'Garduque',
     codeName: ' alfred',
@@ -455,5 +455,5 @@ const MEMBERS: Member[] = [
     specialty: 'stage magic',
     intro: ' http://thestorycircle.proboards.com/thread/600/hi-alfred',
     batch: '15'
-}
+  }
 ];
