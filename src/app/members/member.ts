@@ -4,6 +4,7 @@ export class Member {
         public firstName: string,
         public lastName: string,
         public specialty: string,
+        public type: string,
         public startedMagic?: string,
         public intro?: string,
         public batch?: string,

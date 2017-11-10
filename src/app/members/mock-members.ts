@@ -8,6 +8,7 @@ export const MEMBERS: Member[] = [
     startedMagic: '2003',
     specialty: 'close up magic',
     batch: '0',
+    type: 'Founder',
     intro: 'http://thestorycircle.proboards.com/thread/103/mamot'
   }, {
     firstName: 'Daniel Lei',
@@ -16,6 +17,7 @@ export const MEMBERS: Member[] = [
     startedMagic: 'grade 5',
     specialty: 'mentalism',
     batch: '0',
+    type: 'Founder',
     intro: 'http://thestorycircle.proboards.com/thread/451/simplyjessie-finally'
   }, {
     firstName: 'Richard',
@@ -24,6 +26,7 @@ export const MEMBERS: Member[] = [
     startedMagic: '1998',
     specialty: 'cards, coins, and general close up magic',
     batch: '0',
+    type: 'Founder',
     intro: 'http://thestorycircle.proboards.com/thread/7/trycks'
   }, {
     firstName: 'Rommel',
@@ -31,6 +34,7 @@ export const MEMBERS: Member[] = [
     codeName: 'n/a',
     startedMagic: 'a long time ago',
     batch: '0',
+    type: 'Founder',
     specialty: 'close up magic'
   }, {
     firstName: 'George',
@@ -38,6 +42,7 @@ export const MEMBERS: Member[] = [
     codeName: 'jiggy',
     startedMagic: 'a long time ago',
     batch: '0',
+    type: 'Founder',
     specialty: 'close up magic'
   }, {
     firstName: 'Joanne',
@@ -46,7 +51,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2007',
     specialty: 'Cards',
     intro: 'http://thestorycircle.proboards.com/thread/243/intro',
-    batch: '1'
+    batch: '1',
+    type: 'Certified'
   }, {
     firstName: 'John Marlon',
     lastName: 'Bacalla',
@@ -54,7 +60,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2010',
     specialty: 'Cards',
     intro: 'http://thestorycircle.proboards.com/thread/18/hello-guys',
-    batch: '10'
+    batch: '10',
+    type: 'Certified'
   }, {
     firstName: 'Rovin John',
     lastName: 'Datu',
@@ -62,7 +69,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2010',
     specialty: 'close-up magic',
     intro: 'http://thestorycircle.proboards.com/thread/26/hello-po-sa-inyo',
-    batch: '12'
+    batch: '12',
+    type: 'Certified'
   }, {
     firstName: 'James',
     lastName: 'Gaffud',
@@ -70,7 +78,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'Coins',
     intro: 'http://thestorycircle.proboards.com/thread/28/james-signing',
-    batch: '2'
+    batch: '2',
+    type: 'Certified'
   }, {
     firstName: 'Terence Jovan',
     lastName: 'Garcia Lopez',
@@ -78,7 +87,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'close-up magic',
     intro: 'http://thestorycircle.proboards.com/thread/336/3oww-powwzz-re-intro-tenkai',
-    batch: '2'
+    batch: '2',
+    type: 'Certified'
   }, {
     firstName: 'Giancarlo',
     lastName: 'Urbano',
@@ -86,7 +96,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2009',
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/213/thread',
-    batch: '9'
+    batch: '9',
+    type: 'Certified'
   }, {
     firstName: 'John Matthew',
     lastName: 'Lugue',
@@ -94,7 +105,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2nd year college',
     specialty: 'Cards',
     intro: 'http://thestorycircle.proboards.com/post/173/thread',
-    batch: '10'
+    batch: '10',
+    type: 'Certified'
   }, {
     firstName: 'Cardino',
     lastName: 'Yee',
@@ -102,7 +114,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '12 years old',
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/44/thread',
-    batch: '1'
+    batch: '1',
+    type: 'Certified'
   }, {
     firstName: 'Justin',
     lastName: 'Piñon',
@@ -110,7 +123,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '7 years old',
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/108/thread',
-    batch: '7'
+    batch: '7',
+    type: 'Certified'
   }, {
     firstName: 'Aaron',
     lastName: 'Atienza',
@@ -118,7 +132,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '7 years old',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/26/thread',
-    batch: '8'
+    batch: '8',
+    type: 'Certified'
   }, {
     firstName: 'Frederick',
     lastName: 'Garcia',
@@ -126,7 +141,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '13 years old',
     specialty: 'coins',
     intro: 'http://thestorycircle.proboards.com/post/2459/thread',
-    batch: '2'
+    batch: '2',
+    type: 'Certified'
   }, {
     firstName: 'Jose Marie',
     lastName: 'De Mesa',
@@ -134,7 +150,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '10 years old',
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/419/thread',
-    batch: '6'
+    batch: '6',
+    type: 'Certified'
   }, {
     firstName: 'Josef Brian',
     lastName: 'Hapita',
@@ -142,7 +159,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2006',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/382/thread',
-    batch: '2'
+    batch: '2',
+    type: 'Certified'
   }, {
     firstName: 'Mark Andrew',
     lastName: 'Viernes',
@@ -150,7 +168,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since high school',
     specialty: 'coins, dove magic',
     intro: 'http://thestorycircle.proboards.com/post/470/thread',
-    batch: '8'
+    batch: '8',
+    type: 'Certified'
   }, {
     firstName: 'Jake',
     lastName: 'Gacus',
@@ -158,7 +177,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/304/thread',
-    batch: '2'
+    batch: '2',
+    type: 'Certified'
   }, {
     firstName: 'Angelito',
     lastName: 'Castro',
@@ -166,7 +186,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2005',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/580/thread',
-    batch: '1'
+    batch: '1',
+    type: 'Certified'
   }, {
     firstName: 'Jay-Ar',
     lastName: 'Dela Cruz',
@@ -174,7 +195,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2007',
     specialty: 'cards, coins',
     intro: 'http://thestorycircle.proboards.com/post/1292/thread',
-    batch: '7'
+    batch: '7',
+    type: 'Certified'
   }, {
     firstName: 'Ricky',
     lastName: 'Janeo',
@@ -182,7 +204,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '12 years old',
     specialty: 'mentalism',
     intro: 'http://thestorycircle.proboards.com/post/950/thread',
-    batch: '6'
+    batch: '6',
+    type: 'Certified'
   }, {
     firstName: 'Exequiel',
     lastName: 'Mallari',
@@ -190,7 +213,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'close up /stage magic',
     intro: 'http://thestorycircle.proboards.com/post/1909/thread',
-    batch: '8'
+    batch: '8',
+    type: 'Certified'
   }, {
     firstName: 'Patrick Dan',
     lastName: 'Laceste',
@@ -198,7 +222,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/1884/thread',
-    batch: 'NA'
+    batch: 'NA',
+    type: 'Certified'
   }, {
     firstName: 'Ody',
     lastName: ' Sto.Domingo',
@@ -206,7 +231,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '14 years old',
     specialty: 'closeup/stage magic',
     intro: 'http://thestorycircle.proboards.com/post/1702/thread',
-    batch: '1'
+    batch: '1',
+    type: 'Certified'
   }, {
     firstName: 'Michael',
     lastName: 'Mangila',
@@ -214,7 +240,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2003',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/334/thread',
-    batch: '1'
+    batch: '1',
+    type: 'Certified'
   }, {
     firstName: 'Chris',
     lastName: 'Lina',
@@ -222,7 +249,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '8 years old',
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/209/thread',
-    batch: '10'
+    batch: '10',
+    type: 'Certified'
   }, {
     firstName: 'Froilan',
     lastName: 'Chavez',
@@ -230,7 +258,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2008',
     specialty: 'cards, coins',
     intro: 'http://thestorycircle.proboards.com/post/11/thread',
-    batch: '9'
+    batch: '9',
+    type: 'Certified'
   }, {
     firstName: 'Sam',
     lastName: 'Halili',
@@ -238,7 +267,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'bizaare magic',
     intro: 'http://thestorycircle.proboards.com/post/3264/thread',
-    batch: '10'
+    batch: '10',
+    type: 'Certified'
   }, {
     firstName: 'Hyzel Mark',
     lastName: 'Granadozin',
@@ -246,7 +276,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/2386/thread',
-    batch: '7'
+    batch: '7',
+    type: 'Certified'
   }, {
     firstName: 'Ayumi',
     lastName: 'Pamilar',
@@ -254,7 +285,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'cards, rings',
     intro: 'http://thestorycircle.proboards.com/post/8360/thread',
-    batch: 'NA'
+    batch: 'NA',
+    type: 'Certified'
   }, {
     firstName: 'Mark Lester',
     lastName: 'Subong',
@@ -262,7 +294,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'Grade 6',
     specialty: 'close up magic, contact juggling',
     intro: 'http://thestorycircle.proboards.com/post/29/thread',
-    batch: '1'
+    batch: '1',
+    type: 'Certified'
   }, {
     firstName: 'Ronaldo',
     lastName: 'Moraleta',
@@ -270,7 +303,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/post/89/thread',
-    batch: '1'
+    batch: '1',
+    type: 'Certified'
   }, {
     firstName: 'Antony',
     lastName: 'Andres',
@@ -278,7 +312,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'close up /stand up magic',
     intro: 'NA',
-    batch: 'NA'
+    batch: 'NA',
+    type: 'Certified'
   }, {
     firstName: 'Vernon',
     lastName: 'De Vera',
@@ -286,7 +321,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'cards,ring, illusion',
     intro: '',
-    batch: 'NA'
+    batch: 'NA',
+    type: 'Certified'
   }, {
     firstName: 'John Randolph',
     lastName: 'Madrigal',
@@ -294,7 +330,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'cards, coins',
     intro: 'http://thestorycircle.proboards.com/thread/784/introduction-yu-ho-jan',
-    batch: '12'
+    batch: '12',
+    type: 'Certified'
   }, {
     firstName: 'Alfonso',
     lastName: 'Abejuela Jr',
@@ -302,7 +339,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '4th year high school',
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/post/9240/thread',
-    batch: '12'
+    batch: '12',
+    type: 'Certified'
   }, {
     firstName: 'Jay Mar',
     lastName: 'Garcia',
@@ -310,7 +348,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2013',
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/thread/796/introduction',
-    batch: '12'
+    batch: '12',
+    type: 'Certified'
   }, {
     firstName: 'Dale',
     lastName: 'Rubio',
@@ -318,7 +357,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2007',
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/thread/786/dale-rubio-bow',
-    batch: '13'
+    batch: '13',
+    type: 'Certified'
   }, {
     firstName: 'James Danielle',
     lastName: 'Gabe',
@@ -326,7 +366,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'cards, linking rings',
     intro: 'http://thestorycircle.proboards.com/thread/844/intro',
-    batch: '13'
+    batch: '13',
+    type: 'Certified'
   }, {
     firstName: 'Alvin Dave',
     lastName: 'Bertumen',
@@ -334,7 +375,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since he was 17',
     specialty: 'rubber band magic',
     intro: 'http://thestorycircle.proboards.com/thread/542/revise-intro-caster',
-    batch: '13'
+    batch: '13',
+    type: 'Certified'
   }, {
     firstName: 'Christian',
     lastName: 'Acuyong',
@@ -342,7 +384,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2013',
     specialty: 'cards/cardistry',
     intro: 'http://thestorycircle.proboards.com/thread/855/introduction',
-    batch: '13'
+    batch: '13',
+    type: 'Certified'
   }, {
     firstName: 'Jonas Byron',
     lastName: 'Obada',
@@ -350,7 +393,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'since 2007',
     specialty: 'cards/mentalism',
     intro: 'http://thestorycircle.proboards.com/thread/187/introduction',
-    batch: '7'
+    batch: '7',
+    type: 'Certified'
   }, {
     firstName: 'Robert',
     lastName: 'LaRue',
@@ -358,7 +402,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'close up  magic/mentalism',
     intro: 'http://thestorycircle.proboards.com/thread/782/intro-bob-larue',
-    batch: 'H'
+    batch: 'H',
+    type: 'Honorary'
   }, {
     firstName: 'Adrian',
     lastName: 'Gurango',
@@ -366,7 +411,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2011',
     specialty: 'close up  magic',
     intro: 'http://thestorycircle.proboards.com/thread/757/hello-guys',
-    batch: '13'
+    batch: '13',
+    type: 'Certified'
   }, {
     firstName: 'Solomon',
     lastName: 'Yap',
@@ -374,7 +420,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '',
     specialty: 'close up / coin  magic',
     intro: '',
-    batch: 'H'
+    batch: 'H',
+    type: 'Honorary'
   }, {
     firstName: 'Reuben Rafael',
     lastName: 'Lardizabal',
@@ -382,7 +429,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2008',
     specialty: 'close up/stage magic',
     intro: 'http://thestorycircle.proboards.com/thread/779/hello-name-reuben-lardizabal',
-    batch: 'NA'
+    batch: 'NA',
+    type: 'Certified'
   }, {
     firstName: 'Arjay',
     lastName: 'Ocampo Jr.',
@@ -390,7 +438,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2015',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/875/introduction-rj',
-    batch: '14'
+    batch: '14',
+    type: 'Certified'
   }, {
     firstName: 'James',
     lastName: 'Cortes',
@@ -398,7 +447,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2011',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/915/introduction',
-    batch: '14'
+    batch: '14',
+    type: 'Certified'
   }, {
     firstName: 'Jofer',
     lastName: 'Abata',
@@ -406,7 +456,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2009',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/834/jomagics',
-    batch: '14'
+    batch: '14',
+    type: 'Certified'
   }, {
     firstName: 'Macky Winstone',
     lastName: 'Gatchealejo',
@@ -414,7 +465,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2012',
     specialty: 'close up magic/mentalism',
     intro: 'http://thestorycircle.proboards.com/thread/874/introduction',
-    batch: '14'
+    batch: '14',
+    type: 'Certified'
   }, {
     firstName: 'Ivan',
     lastName: 'Cadiente',
@@ -422,7 +474,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2008',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/881/introduction-vanz',
-    batch: '14'
+    batch: '14',
+    type: 'Certified'
   }, {
     firstName: 'Aldisher',
     lastName: 'Diwallay',
@@ -430,7 +483,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '8 years old',
     specialty: 'close up magic',
     intro: 'http://thestorycircle.proboards.com/thread/942/re-introduction',
-    batch: '15'
+    batch: '15',
+    type: 'Certified'
   }, {
     firstName: 'Mac',
     lastName: 'Florendo',
@@ -438,7 +492,8 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'close up magic',
     intro: ' http://thestorycircle.proboards.com/thread/932/introduction-mac-florendo',
-    batch: '15'
+    batch: '15',
+    type: 'Certified'
   }, {
     firstName: 'Arbien',
     lastName: 'Sonza',
@@ -446,7 +501,8 @@ export const MEMBERS: Member[] = [
     startedMagic: '2008',
     specialty: 'cards',
     intro: 'http://thestorycircle.proboards.com/thread/826/intro-ulit',
-    batch: '15'
+    batch: '15',
+    type: 'Certified'
   }, {
     firstName: 'Afred',
     lastName: 'Garduque',
@@ -454,6 +510,7 @@ export const MEMBERS: Member[] = [
     startedMagic: 'a long time ago',
     specialty: 'stage magic',
     intro: ' http://thestorycircle.proboards.com/thread/600/hi-alfred',
-    batch: '15'
+    batch: '15',
+    type: 'Certified'
   }
 ];
