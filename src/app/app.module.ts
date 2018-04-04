@@ -3,20 +3,19 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
-import { NgProgressModule } from 'ngx-progressbar';
 
 // Components
 import { AppComponent } from './app.component';
-import { MembersComponent } from './members/members.component';
-import { MemberDetailComponent } from './members/member-detail/member-detail.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { EventsComponent } from './events/events.component';
+import { MembersComponent } from './members/members.component';
 
 // Router
 import { AppRoutingModule } from './app-routing.module';
 
+
 // Services
-import { MemberService } from './members/member.service';
+
 
 
 @NgModule({
@@ -24,18 +23,15 @@ import { MemberService } from './members/member.service';
     BrowserModule,
     HttpModule,
     AngularFontAwesomeModule,
-    NgProgressModule,
     AppRoutingModule
   ],
   declarations: [
     AppComponent,
-    MembersComponent,
-    MemberDetailComponent,
     EventsComponent,
     HomepageComponent,
+    MembersComponent,
   ],
   providers: [
-    MemberService
   ],
   bootstrap: [AppComponent]
 })
